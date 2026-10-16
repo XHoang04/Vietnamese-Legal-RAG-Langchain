@@ -1,0 +1,32 @@
+domain: lao_dong
+national_only: true
+allowed_doc_types:
+  - "Luật"
+  - "Bộ luật"
+  - "Pháp lệnh"
+  - "Nghị định"
+  - "Thông tư"
+  - "Thông tư liên tịch"
+  - "Quyết định"
+keywords:
+  - "lao động"
+  - "hợp đồng lao động"
+  - "tiền lương"
+  - "bảo hiểm xã hội"
+  - "bảo hiểm thất nghiệp"
+  - "an toàn, vệ sinh lao động"
+  - "an toàn vệ sinh lao động"
+  - "thời giờ làm việc"
+  - "thời giờ nghỉ ngơi"
+  - "kỷ luật lao động"
+  - "tranh chấp lao động"
+  - "tai nạn lao động"
+  - "người sử dụng lao động"
+  - "người lao động"
+  - "công đoàn"
+  - "việc làm"
+seed_doc_numbers:
+  - "45/2019/QH14"
+  - "145/2020/NĐ-CP"
+expand_hops: 1
+max_docs: 150

@@ -1,0 +1,19 @@
+{
+  "experiment": "A7",
+  "description": "graph full (grade hybrid, verify llm, planner enabled)",
+  "pipeline": "graph",
+  "split": "dev",
+  "num_evaluated": 32,
+  "recall@5": 0.3036,
+  "recall@10": 0.3393,
+  "mrr@10": 0.195,
+  "ndcg@10": 0.215,
+  "citation_accuracy": 0.1071,
+  "citation_support": 1.0,
+  "refusal_accuracy": 0.9688,
+  "validity_accuracy": 0.75,
+  "avg_llm_calls": 3.53,
+  "latency_p50_ms": 518.88,
+  "latency_p95_ms": 1119.48,
+  "latency_mean_ms": 566.38
+}

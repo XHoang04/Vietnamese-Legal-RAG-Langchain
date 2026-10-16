@@ -1,0 +1,19 @@
+{
+  "experiment": "A5",
+  "description": "A4 + graph lean (grade threshold, verify code, validity disabled)",
+  "pipeline": "graph",
+  "split": "dev",
+  "num_evaluated": 32,
+  "recall@5": 0.1429,
+  "recall@10": 0.1786,
+  "mrr@10": 0.1134,
+  "ndcg@10": 0.1184,
+  "citation_accuracy": 0.0714,
+  "citation_support": 0.4286,
+  "refusal_accuracy": 1.0,
+  "validity_accuracy": 0.9062,
+  "avg_llm_calls": 2.62,
+  "latency_p50_ms": 1160.19,
+  "latency_p95_ms": 1393.13,
+  "latency_mean_ms": 971.9
+}

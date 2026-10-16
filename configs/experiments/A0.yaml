@@ -1,0 +1,11 @@
+name: "A0"
+description: "dense baseline, no rerank, no parent-child"
+pipeline: "simple_rag"
+overrides:
+  retrieval:
+    hybrid:
+      enabled: false
+    rerank:
+      enabled: false
+    parent_child:
+      enabled: false

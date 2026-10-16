@@ -1,0 +1,62 @@
+# Smoke queries for rapid retrieval hit-rate validation
+# Format: list of test queries with expected document number and article number
+
+- id: "SQ-01"
+  query: "Mức đóng và căn cứ đóng kinh phí công đoàn của doanh nghiệp"
+  expected_doc_number: "191/2013/NĐ-CP"
+  expected_article_no: "5"
+
+- id: "SQ-02"
+  query: "Đối tượng đóng kinh phí công đoàn gồm những cơ quan tổ chức nào"
+  expected_doc_number: "191/2013/NĐ-CP"
+  expected_article_no: "4"
+
+- id: "SQ-03"
+  query: "Phương thức đóng kinh phí công đoàn hàng tháng"
+  expected_doc_number: "191/2013/NĐ-CP"
+  expected_article_no: "6"
+
+- id: "SQ-04"
+  query: "Điều kiện cấp giấy phép lao động cho người nước ngoài tại Việt Nam"
+  expected_doc_number: "102/2013/NĐ-CP"
+  expected_article_no: "9"
+
+- id: "SQ-05"
+  query: "Thời hạn của giấy phép lao động cấp cho lao động nước ngoài là bao lâu"
+  expected_doc_number: "102/2013/NĐ-CP"
+  expected_article_no: "11"
+
+- id: "SQ-06"
+  query: "Các trường hợp người lao động nước ngoài không thuộc diện cấp giấy phép lao động"
+  expected_doc_number: "102/2013/NĐ-CP"
+  expected_article_no: "7"
+
+- id: "SQ-07"
+  query: "Các trường hợp bị thu hồi giấy phép lao động của người nước ngoài"
+  expected_doc_number: "102/2013/NĐ-CP"
+  expected_article_no: "17"
+
+- id: "SQ-08"
+  query: "Quyền và trách nhiệm của công đoàn trong đối thoại tại nơi làm việc"
+  expected_doc_number: "43/2013/NĐ-CP"
+  expected_article_no: "6"
+
+- id: "SQ-09"
+  query: "Hoạt động giải quyết tranh chấp lao động của hòa giải viên lao động"
+  expected_doc_number: "133/2007/NĐ-CP"
+  expected_article_no: "7"
+
+- id: "SQ-10"
+  query: "Thành lập Hội đồng hoà giải lao động cơ sở tại doanh nghiệp"
+  expected_doc_number: "133/2007/NĐ-CP"
+  expected_article_no: "4"
+
+- id: "SQ-11"
+  query: "Nguyên tắc bảo hiểm xã hội bắt buộc và tự nguyện"
+  expected_doc_number: "58/2014/QH13"
+  expected_article_no: "5"
+
+- id: "SQ-12"
+  query: "Quyền của người lao động khi tham gia bảo hiểm xã hội"
+  expected_doc_number: "58/2014/QH13"
+  expected_article_no: "18"

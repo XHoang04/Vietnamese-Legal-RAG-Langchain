@@ -1,0 +1,11 @@
+name: "A2"
+description: "A1 + hybrid BM25 (RRF)"
+pipeline: "simple_rag"
+overrides:
+  retrieval:
+    hybrid:
+      enabled: true
+    rerank:
+      enabled: false
+    parent_child:
+      enabled: false

@@ -1,0 +1,11 @@
+name: "A4"
+description: "A3 + parent-child expansion"
+pipeline: "simple_rag"
+overrides:
+  retrieval:
+    hybrid:
+      enabled: true
+    rerank:
+      enabled: true
+    parent_child:
+      enabled: true

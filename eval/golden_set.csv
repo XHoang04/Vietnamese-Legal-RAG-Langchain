@@ -1,0 +1,378 @@
+﻿id,category,split,question,gold_articles,reference_answer,expected_behavior,expected_validity,review_status,reviewer_note
+single_001,single,test,"Quy định pháp luật về về tổ chức bộ máy, biên chế theo Điều 11 của 178/2007/NĐ-CP là gì?",13028:A11,"Theo Điều 11 178/2007/NĐ-CP: Điều11. Về tổ chức bộ máy, biên chế
+1. Trình Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức
+của Bộ; về thành lập, tổ chức lại, giải thể tổng cục và tương đương tổng cục
+thuộc Bộ; về cơ chế tự chủ, tự chịu trách nhiệm đối với các...",answer,in_force,accepted,
+single_002,single,test,Quy định pháp luật về đóng bảo hiểm thất nghiệp theo Điều 4 của 28/2015/TT-BLĐTBXH là gì?,95800:A4,"Theo Điều 4 28/2015/TT-BLĐTBXH: Điều4. Đóng bảo hiểm thất nghiệp
+1. Người lao động đóng bảo hiểm thất nghiệp theo chế độ tiền lương do người
+sử dụng lao động quyết định mà mức tiền lương tháng của người lao động cao hơn
+hai mươi tháng lương tối thiểu vùng thì người sử dụng lao động...",answer,in_force,accepted,
+single_003,single,test,Quy định pháp luật về thử việc theo Điều 19 của 116/2003/NĐ-CP là gì?,19252:A19,"Theo Điều 19 116/2003/NĐ-CP: Điều19. Thử việc
+1. Người được tuyển dụng vào làm việc trong các đơn vị sự nghiệp phải thực
+hiện chế độ thử việc, trừ những người đã làm việc ở các cơ quan, đơn vị nhà
+nước có cùng chuyên môn với ngạch được tuyển dụng vào đơn vị sự nghiệp.
+2. Thời gi...",answer,in_force,accepted,
+single_004,single,dev,"Điều kiện và trình tự thủ tục về nguyên tắc, thủ tục, trình tự, hồ sơ xét công nhận người có theo 05/2011/TTLT-UBDT-BTC gồm những gì?",27249:A4,"Theo Điều 4 05/2011/TTLT-UBDT-BTC: Điều4. Nguyên tắc, thủ tục, trình tự, hồ sơ xét công nhận người có
+uy tín
+1. Nguyên tắc xét công nhận
+a) Người có uy tín có đủ các điều kiện quy định tại khoản 1 Điều 2 Quyết
+định số 18/2011/QĐTTg;
+b) Việc bình xét được tiến hành từ cơ sở thôn, bản,...",answer,in_force,accepted,
+single_005,single,dev,"Theo quy định tại 05/2013/TT-BNV, thống kê công việc theo chức năng, nhiệm vụ, quyền hạn của cơ quan, được quy định cụ thể như thế nào?",37875:A1,"Theo Điều 1 05/2013/TT-BNV: Điều1. Thống kê công việc theo chức năng, nhiệm vụ, quyền hạn của Cơ quan,
+tổ chức, đơn vị
+Việc thống kê công việc theo chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức
+của cơ quan, tổ chức, đơn vị thực hiện như sau:
+1. Từng cá nhân cán bộ, công chức...",answer,in_force,accepted,
+single_006,single,test,Quy định pháp luật về giấy phép lao động theo Điều 3 của 24/2015/TT-BLĐTBXH là gì?,86183:A3,"Theo Điều 3 24/2015/TT-BLĐTBXH: Điều3. Giấy phép lao động
+1. Giấy phép lao động do Cục Việc làm (Bộ Lao động Thương binh và Xã hội)
+tổ chức in và thực hiện thống nhất.
+2. Giấy phép lao động theo Mẫu số 1 ban hành kèm theo Thông tư này....",answer,in_force,accepted,
+single_007,single,test,"Mức chi trả và quy định về mức hỗ trợ kinh phí đào tạo, bồi dưỡng, nâng cao trình độ kỹ năng được xác định thế nào theo 28/2015/TT-BLĐTBXH?",95800:A15,"Theo Điều 15 28/2015/TT-BLĐTBXH: Điều15. Mức hỗ trợ kinh phí đào tạo, bồi dưỡng, nâng cao trình độ kỹ năng
+nghề để duy trì việc làm cho người lao động theo quy định tại Khoản 1 Điều 4
+Nghị định số 28/2015/NĐCP
+1. Đối với trường hợp khóa đào tạo được thực hiện tại cơ sở dạy nghề thì...",answer,in_force,accepted,
+single_008,single,test,"Theo quy định tại 119/2001/QĐ-UB, giám đốc sở y tế chủ trì, phối hợp với ban tổ chức chính quyền, sở được quy định cụ thể như thế nào?",13349:A2,"Theo Điều 2 119/2001/QĐ-UB: Điều 2: Giám đốc Sở Y tế chủ trì, phối hợp với Ban tổ chức chính quyền, Sở
+Tài chính Vật giá, Bảo hiểm xã hội tỉnh, Bảo hiểm y tế tỉnh, UBND các huyện,
+thị xã hướng dẫn tổ chức thực hiện: đảm bảo đúng đối tượng, công khai và theo
+các qui định của Nhà...",answer,in_force,accepted,
+single_009,single,test,"Quy định pháp luật về pháp lệnh, nghị quyết của ủy ban thường vụ quốc hội theo Điều 12 của 17/2008/QH12 là gì?",12803:A12,"Theo Điều 12 17/2008/QH12: Điều12. Pháp lệnh, nghị quyết của Ủy ban thường vụ Quốc hội
+1. Pháp lệnh của Ủy ban thường vụ Quốc hội quy định những vấn đề được Quốc
+hội giao, sau một thời gian thực hiện trình Quốc hội xem xét, quyết định ban
+hành luật.
+2. Nghị quyết của Ủy ban th...",answer,in_force,accepted,
+single_010,single,dev,"Quy định pháp luật về xây dựng, ban hành nghị quyết liên tịch theo Điều 73 của 17/2008/QH12 là gì?",12803:A73,"Theo Điều 73 17/2008/QH12: Điều73. Xây dựng, ban hành nghị quyết liên tịch
+1. Dự thảo nghị quyết liên tịch giữa Ủy ban thường vụ Quốc hội hoặc giữa
+Chính phủ với cơ quan trung ương của tổ chức chính trị xã hội do Ủy ban
+thường vụ Quốc hội hoặc Chính phủ phân công cơ quan chủ t...",answer,in_force,accepted,
+single_011,single,dev,Trách nhiệm thực hiện theo 19/2016/TT-BYT về trách nhiệm của người làm công tác y tế tại cơ sở lao động đối với bao gồm những nội dung gì?,157059:A13,"Theo Điều 13 19/2016/TT-BYT: Điều13. Trách nhiệm của người làm công tác y tế tại cơ sở lao động đối với
+công tác sơ cứu, cấp cứu
+1. Định kỳ kiểm tra, rà soát, việc tổ chức sơ cứu, cấp cứu; trang thiết bị,
+phương tiện sơ cứu, cấp cứu và số lượng người làm công tác sơ cứu, cấp cứu...",answer,in_force,accepted,
+single_012,single,test,"Quy định pháp luật về thống kê, đánh giá thực trạng đội ngũ cán bộ, công chức và người lao theo Điều 4 của 05/2013/TT-BNV là gì?",37875:A4,"Theo Điều 4 05/2013/TT-BNV: Điều4. Thống kê, đánh giá thực trạng đội ngũ cán bộ, công chức và người lao
+động hiện có
+Việc thống kê, đánh giá thực trạng đội ngũ cán bộ, công chức và người lao động
+trong cơ quan, tổ chức, đơn vị được thực hiện bởi 2 báo cáo sau:
+1. Báo cáo thống...",answer,in_force,accepted,
+single_013,single,dev,"Quy định pháp luật về điều chỉnh chương trình xây dựng luật, pháp lệnh theo Điều 29 của 17/2008/QH12 là gì?",12803:A29,"Theo Điều 29 17/2008/QH12: Điều29. Điều chỉnh chương trình xây dựng luật, pháp lệnh
+Trong trường hợp cần thiết, Ủy ban thường vụ Quốc hội quyết định điều chỉnh
+chương trình xây dựng luật, pháp lệnh và báo cáo Quốc hội tại kỳ họp gần nhất.
+Việc điều chỉnh chương trình xây dựng...",answer,in_force,accepted,
+single_014,single,test,"Quy định pháp luật về cơ sở khám bệnh, chữa bệnh bảo hiểm y tế theo Điều 24 của 25/2008/QH12 là gì?",12326:A24,"Theo Điều 24 25/2008/QH12: Điều 24. Cơ sở khám bệnh, chữa bệnh bảo hiểm y tế
+1. Cơ sở khám bệnh, chữa bệnh bảo hiểm y tế là cơ sở y tế có ký hợp đồng khám
+bệnh, chữa bệnh với tổ chức bảo hiểm y tế.
+2. Cơ sở khám bệnh, chữa bệnh bảo hiểm y tế bao gồm:
+a) Trạm y tế xã và tương đ...",answer,in_force,accepted,
+single_015,single,test,Quy định pháp luật về quản lý người huấn luyện theo Điều 4 của 31/2018/TT-BLĐTBXH là gì?,135974:A4,"Theo Điều 4 31/2018/TT-BLĐTBXH: Điều4. Quản lý người huấn luyện
+1. Người đứng đầu tổ chức huấn luyện chịu trách nhiệm đảm bảo người huấn
+luyện của tổ chức huấn luyện, người huấn luyện trong các khóa huấn luyện do tổ
+chức huấn luyện triển khai đạt tiêu chuẩn về người huấn luyện theo...",answer,in_force,accepted,
+single_016,single,test,"Quy định pháp luật về di chuyển hồ sơ hưởng lương hưu, trợ cấp tai nạn lao động, bệnh theo Điều 36 của 136/2020/TT-BQP là gì?",146985:A36,"Theo Điều 36 136/2020/TT-BQP: Điều36. Di chuyển Hồ sơ hưởng lương hưu, trợ cấp tai nạn lao động, bệnh
+nghề nghiệp hằng tháng, trợ cấp tử tuất hằng tháng
+1. Hồ sơ hưởng lương hưu, trợ cấp tử tuất hằng tháng
+a) Khi nhận hồ sơ đã được BHXH Bộ Quốc phòng giải quyết, cơ quan nhân sự c...",answer,in_force,accepted,
+single_017,single,test,Quy định pháp luật về ban soạn thảo nghị định theo Điều 60 của 17/2008/QH12 là gì?,12803:A60,"Theo Điều 60 17/2008/QH12: Điều60. Ban soạn thảo nghị định
+1. Cơ quan chủ trì soạn thảo thành lập Ban soạn thảo nghị định. Ban soạn thảo
+gồm Trưởng ban là đại diện cơ quan chủ trì soạn thảo và các thành viên là đại
+diện cơ quan thẩm định, đại diện cơ quan, tổ chức hữu quan, cá...",answer,in_force,accepted,
+single_018,single,test,Quy định pháp luật về trợ cấp hằng tháng theo Điều 47 của 58/2014/QH13 là gì?,46744:A47,"Theo Điều 47 58/2014/QH13: Điều47. Trợ cấp hằng tháng
+1. Người lao động bị suy giảm khả năng lao động từ 31% trở lên thì được hưởng
+trợ cấp hằng tháng.
+2. Mức trợ cấp hằng tháng được quy định như sau:
+a) Suy giảm 31% khả năng lao động thì được hưởng bằng 30% mức lương cơ sở, s...",answer,in_force,accepted,
+single_019,single,dev,Quy định pháp luật về nguồn kinh phí. theo Điều 3 của 01/2013/TTLT-BNG-BNV-BTC-BLĐTBXH là gì?,38528:A3,"Theo Điều 3 01/2013/TTLT-BNG-BNV-BTC-BLĐTBXH: Điều3. Nguồn kinh phí.
+Nguồn kinh phí để thực hiện chế độ sinh hoạt phí, các chế độ phụ cấp, trợ cấp,
+chế độ phu nhân/phu quân và một số chế độ khác đối với cán bộ, công chức công
+tác nhiệm kỳ tại cơ quan Việt Nam ở nước ngoài được bố trí trong dự to...",answer,in_force,accepted,
+single_020,single,test,Quy định pháp luật về quỹhỗ trợ lao động dôi dư thực hiệnhỗ trợ cho người lao động dôi theo Điều 5 của 85/2002/QĐ-BTC là gì?,22156:A5,"Theo Điều 5 85/2002/QĐ-BTC: Điều 5. QuỹHỗ trợ lao động dôi dư thực hiệnhỗ trợ cho người lao động dôi
+dư theo quy định tại điểm b khoản 1, khoản 2 vàđiểm b, điểm c khoản 3 Điều 3;
+khoản 2 Điều 4 Nghị định số 41/20021NĐCP và hướngdẫn của Bộ Lao động Thương
+binh và Xãhội....",answer,in_force,accepted,
+single_021,single,test,"Quy định pháp luật về nhiệm vụ của ban soạn thảo, trưởng ban soạn thảo theo Điều 32 của 17/2008/QH12 là gì?",12803:A32,"Theo Điều 32 17/2008/QH12: Điều32. Nhiệm vụ của Ban soạn thảo, Trưởng ban soạn thảo
+1. Ban soạn thảo có trách nhiệm tổ chức việc soạn thảo và chịu trách nhiệm về
+chất lượng, tiến độ soạn thảo dự án luật, pháp lệnh, dự thảo nghị quyết trước
+cơ quan, tổ chức chủ trì soạn thảo.
+2...",answer,in_force,accepted,
+single_022,single,dev,Quy định về thời hạn cấp giấy chứng nhận đăng ký hoạt động lưu ký chứng khoán tại 70/2006/QH11 quy định thời gian cụ thể là bao lâu?,15052:A50,"Theo Điều 50 70/2006/QH11: Điều50. Thời hạn cấp Giấy chứng nhận đăng ký hoạt động lưu ký chứng khoán
+1. Thời hạn cấp Giấy chứng nhận đăng ký hoạt động lưu ký chứng khoán là mười
+lăm ngày, kể từ ngày Uỷ ban Chứng khoán Nhà nước nhận được hồ sơ hợp lệ.
+Trường hợp từ chối, Uỷ ban...",answer,in_force,accepted,
+single_023,single,test,Quy định pháp luật về quyết định này có hiệu lực thi hành từ ngày 28 tháng 6 năm theo Điều 2 của 03/2018/QĐ-UBND là gì?,141208:A2,"Theo Điều 2 03/2018/QĐ-UBND: Điều2. Quyết định này có hiệu lực thi hành từ ngày 28 tháng 6 năm
+2018. Quyết định này thay thế Quyết định số 02/2013/QĐUBND ngày 17 tháng 6
+năm 2013 của Ủy ban nhân dân Quận 4 về ban hành Quy chế tổ chức và hoạt động
+của Phòng Lao động – Thương binh...",answer,in_force,accepted,
+single_024,single,dev,Trách nhiệm thực hiện theo 27/2022/NĐ-CP về trách nhiệm thi hành bao gồm những nội dung gì?,153884:A42,"Theo Điều 42 27/2022/NĐ-CP: Điều42. Trách nhiệm thi hành
+Các Bộ trưởng, Thủ trưởng cơ quan ngang Bộ, Thủ trưởng các cơ quan thuộc Chính
+phủ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc Trung ương và các
+tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Nghị đị...",answer,in_force,accepted,
+single_025,single,test,"Theo quy định tại 39/2015/TTLT-BLĐTBXH-BGDĐT-BNV, quyền hạn của trung tâm giáo dục nghề nghiệp giáo dục thường được quy định cụ thể như thế nào?",92605:A14,"Theo Điều 14 39/2015/TTLT-BLĐTBXH-BGDĐT-BNV: Điều14. Quyền hạn của Trung tâm Giáo dục nghề nghiệp Giáo dục thường
+xuyên
+1. Được chủ động xây dựng và tổ chức thực hiện kế hoạch phát triển trung tâm
+phù hợp với chiến lược phát triển giáo dục nghề nghiệp và quy hoạch mạng lưới
+các Trung tâm Giáo d...",answer,in_force,accepted,
+single_026,single,test,Mức chi trả và quy định về mức đóng và phương thức đóng của người lao động tham gia bảo hiểm được xác định thế nào theo 58/2014/QH13?,46744:A85,"Theo Điều 85 58/2014/QH13: Điều85. Mức đóng và phương thức đóng của người lao động tham gia bảo hiểm
+xã hội bắt buộc
+1. Người lao động quy định tại các điểm a, b, c, d, đ và h khoản 1 Điều 2 của
+Luật này, hằng tháng đóng bằng 8% mức tiền lương tháng vào quỹ hưu trí và tử
+tuất....",answer,in_force,accepted,
+single_027,single,test,Quy định pháp luật về báo cáo định kỳ về tình hình thực hiện bảo hiểm thất nghiệp theo Điều 17 của 28/2015/TT-BLĐTBXH là gì?,95800:A17,"Theo Điều 17 28/2015/TT-BLĐTBXH: Điều17. Báo cáo định kỳ về tình hình thực hiện bảo hiểm thất nghiệp
+1. Báo cáo định kỳ của Sở Lao động – Thương binh và Xã hội theo quy định tại
+Khoản 3 Điều 38 Nghị định số 28/2015/NĐCP
+Định kỳ 06 tháng, trước ngày 31 tháng 7; định kỳ hằng năm trước...",answer,in_force,accepted,
+single_028,single,test,Điều kiện và trình tự thủ tục về điều kiện kiểm định theo 12/2021/TT-BLĐTBXH gồm những gì?,156014:A6,"Theo Điều 6 12/2021/TT-BLĐTBXH: Điều6. Điều kiện kiểm định
+Khi tiến hành kiểm định phải đảm bảo các điều kiện sau đây:
+1. Thang máy phải ở trạng thái sẵn sàng đưa vào kiểm định;
+2. Hồ sơ kỹ thuật của thang máy phải đầy đủ;
+3. Các yếu tố môi trường, thời tiết đủ điều kiện không làm...",answer,in_force,accepted,
+single_029,single,dev,Quy định pháp luật về thời điểm hưởng lương hưu theo Điều 76 của 58/2014/QH13 là gì?,46744:A76,"Theo Điều 76 58/2014/QH13: Điều76. Thời điểm hưởng lương hưu
+1. Thời điểm hưởng lương hưu của các đối tượng quy định tại Điều 72 của Luật
+này được tính từ tháng liền kề sau tháng người tham gia bảo hiểm xã hội đủ
+điều kiện hưởng lương hưu theo quy định tại Điều 73 của Luật này...",answer,in_force,accepted,
+single_030,single,test,Trách nhiệm thực hiện theo 25/2008/QH12 về trách nhiệm của bộ tài chính về bảo hiểm y tế bao gồm những nội dung gì?,12326:A7,"Theo Điều 7 25/2008/QH12: Điều 7. Trách nhiệm của Bộ Tài chính về bảo hiểm y tế
+1. Phối hợp với Bộ Y tế, cơ quan, tổ chức có liên quan xây dựng chính sách,
+pháp luật về tài chính liên quan đến bảo hiểm y tế.
+2. Thanh tra, kiểm tra việc thực hiện các quy định của pháp luật về...",answer,in_force,accepted,
+single_031,single,test,Quy định pháp luật về bảo đảm thanh khoản theo Điều 3 của 60/2015/QĐ-TTg là gì?,93200:A3,"Theo Điều 3 60/2015/QĐ-TTg: Điều3. Bảo đảm thanh khoản
+Ngoài việc mở tài khoản tiền gửi phản ánh các khoản thu, chi theo quy định tại
+Điểm b Khoản 1 Điều 2 Quyết định này, Bảo hiểm xã hội Việt Nam mở tài khoản
+tiền gửi không kỳ hạn và duy trì trên tài khoản này số dư thường xuy...",answer,in_force,accepted,
+single_032,single,test,Quy định pháp luật về danh mục bí mật nhà nước độ mật của ngành lao động thương binh và theo Điều 1 của 59/2014/TT-BCA-A81 là gì?,38275:A1,"Theo Điều 1 59/2014/TT-BCA-A81: Điều1. Danh mục bí mật nhà nước độ Mật của ngành Lao động Thương binh và
+Xã hội gồm những tin trong phạm vi sau:
+1. Kế hoạch, nội dung đàm phán với các nước, các tổ chức quốc tế về các lĩnh
+vực hợp tác lao động và chuyên gia, trẻ em, chưa công bố; tì...",answer,in_force,accepted,
+single_033,single,dev,"Theo quy định tại 61/2011/QĐ-TTg, trình tự, thủ tục và thẩm quyền quyết định miễn tiền sử dụng đất, được quy định cụ thể như thế nào?",26939:A2,"Theo Điều 2 61/2011/QĐ-TTg: Điều 2. Trình tự, thủ tục và thẩm quyền quyết định miễn tiền sử dụng đất,
+tiền thuê đất thực hiện theo quy định của pháp luật đất đai về thu tiền sử
+dụng đất, thu tiền thuê đất và pháp luật về quản lý thuế....",answer,in_force,accepted,
+single_034,single,dev,"Trách nhiệm thực hiện theo 39/2015/TTLT-BLĐTBXH-BGDĐT-BNV về trách nhiệm của ủy ban nhân dân huyện, quận, thị xã, thành phố bao gồm những nội dung gì?",92605:A20,"Theo Điều 20 39/2015/TTLT-BLĐTBXH-BGDĐT-BNV: Điều20. Trách nhiệm của Ủy ban nhân dân huyện, quận, thị xã, thành phố
+thuộc tỉnh
+1. Phối hợp với các cơ quan chuyên môn thuộc tỉnh thực hiện các nhiệm vụ được
+giao về sáp nhập Trung tâm dạy nghề, Trung tâm giáo dục thường xuyên, Trung
+tâm kỹ thuật t...",answer,in_force,accepted,
+single_035,single,test,"Quy định về hồ sơ và thời hạn giải quyết hưởng trợ cấp dưỡng sức, phục hồi sức tại 136/2020/TT-BQP quy định thời gian cụ thể là bao lâu?",146985:A21,"Theo Điều 21 136/2020/TT-BQP: Điều21. Hồ sơ và thời hạn giải quyết hưởng trợ cấp dưỡng sức, phục hồi sức
+khỏe sau ốm đau, thai sản, tai nạn lao động, bệnh nghề nghiệp
+Theo quy định tại Điều 107 Luật bảo hiểm xã hội, thực hiện như sau:
+1. Hồ sơ theo quy định tại khoản 3 Điều 100,...",answer,in_force,accepted,
+single_036,single,test,Quy định pháp luật về hành vi bị nghiêm cấm theo Điều 4 của 37/2010/TT-BLĐTBXH là gì?,26042:A4,"Theo Điều 4 37/2010/TT-BLĐTBXH: Điều 4. Hành vi bị nghiêm cấm
+1. Kiểm định không tuân thủ nội dung, các bước của quy trình kiểm định; rút
+ngắn thời hạn kiểm định của thiết bị mà không nêu rõ lý do.
+2. Sử dụng các trang, thiết bị thực hiện kiểm định không bảo đảm chất lượng
+theo yêu...",answer,in_force,accepted,
+single_037,single,dev,Quy định pháp luật về đối tượng áp dụng theo Điều 2 của 28/2015/TT-BLĐTBXH là gì?,95800:A2,"Theo Điều 2 28/2015/TT-BLĐTBXH: Điều2. Đối tượng áp dụng
+Đối tượng áp dụng của Thông tư này là đối tượng áp dụng quy định tại Điều 2
+Nghị định số 28/2015/NĐCP ngày 12 tháng 3 năm 2015 của Chính phủ quy định chi
+tiết thi hành một số điều của Luật Việc làm về bảo hiểm thất nghiệp (sa...",answer,in_force,accepted,
+single_038,single,test,Quy định pháp luật về phạm vi điều chỉnh và đối tượng áp dụng theo Điều 1 của 29/2014/TTLT-BLĐTBXH-BTC là gì?,49500:A1,"Theo Điều 1 29/2014/TTLT-BLĐTBXH-BTC: Điều1. Phạm vi điều chỉnh và đối tượng áp dụng
+1. Phạm vi điều chỉnh: Thông tư liên tịch này hướng dẫn thủ tục chuyển mức
+và hệ số đối với đối tượng đang hưởng chính sách trợ giúp xã hội; chế độ hỗ
+trợ đối với đối tượng cần bảo vệ khẩn cấp được nhận...",answer,in_force,accepted,
+single_039,single,test,Điều kiện và trình tự thủ tục về điều kiện hưởng lương hưu theo 58/2014/QH13 gồm những gì?,46744:A73,"Theo Điều 73 58/2014/QH13: Điều73. Điều kiện hưởng lương hưu
+1. Người lao động hưởng lương hưu khi có đủ các điều kiện sau đây:
+a) Nam đủ 60 tuổi, nữ đủ 55 tuổi;
+b) Đủ 20 năm đóng bảo hiểm xã hội trở lên.
+2. Người lao động đã đủ điều kiện về tuổi theo quy định tại điểm a khoản...",answer,in_force,accepted,
+single_040,single,test,Quy định pháp luật về hiệu lực thi hành theo Điều 53 của 116/2003/NĐ-CP là gì?,19252:A53,"Theo Điều 53 116/2003/NĐ-CP: Điều53. Hiệu lực thi hành
+1. Nghị định này có hiệu lực thi hành sau 15 ngày, kể từ ngày đăng Công báo
+và thay thế Nghị định số 95/1998/NĐCP ngày 17 tháng 11 năm 1998 của Chính phủ
+về tuyển dụng, sử dụng và quản lý công chức và Nghị định số 56/2000/NĐ...",answer,in_force,accepted,
+single_041,single,test,Điều kiện và trình tự thủ tục về điều kiện thẩm định theo 05/2013/TT-BNV gồm những gì?,37875:A12,"Theo Điều 12 05/2013/TT-BNV: Điều12. Điều kiện thẩm định
+Đề án vị trí việc làm hoặc đề án điều chỉnh vị trí việc làm trong cơ quan, tổ
+chức, đơn vị chỉ được thẩm định khi có đủ hồ sơ theo quy định tại Khoản 1 Điều
+11 Nghị định số 36/2013/NĐCP của Chính phủ và các cơ quan, tổ chứ...",answer,in_force,accepted,
+single_042,single,test,Quy định pháp luật về xây dựng và ban hành điều lệ hội thi theo Điều 9 của 16/2013/TT-BLĐTBXH là gì?,43814:A9,"Theo Điều 9 16/2013/TT-BLĐTBXH: Điều9. Xây dựng và ban hành Điều lệ Hội thi
+1. Ban tổ chức Hội thi xây dựng và ban hành Điều lệ Hội thi.
+2. Nội dung cơ bản của Điều lệ Hội thi gồm:
+a) Tên Hội thi;
+b) Mục đích, yêu cầu;
+c) Thời gian và địa điểm tổ chức Hội thi;
+d) Nội dung thi;
+đ) Đ...",answer,in_force,accepted,
+single_043,single,test,"Mức chi trả và quy định về xác định số lần, mức giá và thanh toán tiền khám bệnh trong một số được xác định thế nào theo 39/2018/TT-BYT?",137202:A5,"Theo Điều 5 39/2018/TT-BYT: Điều 5. Xác định số lần, mức giá và thanh toán tiền khám bệnh trong một số
+trường hợp cụ thể
+1. Trường hợp người bệnh đến khám bệnh tại khoa khám bệnh sau đó được chỉ
+định vào điều trị nội trú theo yêu cầu chuyên môn thì việc thanh toán tiền
+khám bện...",answer,in_force,accepted,
+single_044,single,test,"Trách nhiệm thực hiện theo 136/2020/TT-BQP về quy trình, trách nhiệm giới thiệu giám định tai nạn lao động, bệnh bao gồm những nội dung gì?",146985:A18,"Theo Điều 18 136/2020/TT-BQP: Điều18. Quy trình, trách nhiệm giới thiệu giám định tai nạn lao động, bệnh
+nghề nghiệp
+1. Đối với người lao động: Nộp hồ sơ giám định theo hướng dẫn tại khoản 1 và
+điểm a khoản 4 (trừ khoản 3 Điều 13), hoặc điểm b khoản 4 (trừ khoản 5 Điều
+14) hoặc đ...",answer,in_force,accepted,
+single_045,single,dev,Quy định pháp luật về bộ tài chính phối hợp với tổng liên đoàn lao động việt nam và bộ theo Điều 2 của 1213/QĐ-TTg là gì?,13646:A2,"Theo Điều 2 1213/QĐ-TTg: Điều2. Bộ Tài chính phối hợp với Tổng liên đoàn Lao động Việt Nam và Bộ
+Lao động Thương binh và xã hội nghiên cứu chế độ và nguồn trả lương đối với
+số cán bộ chuyên trách công đoàn ngoài quốc doanh theo hướng sử dụng khoản 2%
+kinh phí công đoàn mà Tổ...",answer,in_force,accepted,
+multi_001,multi_step,test,Hãy so sánh hoặc tổng hợp quy định giữa Điều 4 (Hiệu lực thi hành) và Điều 3 (Tổ chức thực hiện) theo văn bản 05/2018/TT-BLĐTBXH.,129853:A4; 129853:A3,"Văn bản 05/2018/TT-BLĐTBXH quy định tại Điều 4 về Hiệu lực thi hành: Điều4. Hiệu lực thi hành
+Thông tư này có hiệu lực thi hành kể từ ngày 15 tháng 8 năm 2018. Các chế độ
+quy định tại Thông tư này được thực hiện kể từ n... Đồng thời tại Điều 3 về Tổ chức thực hiện: Điều3. Tổ chức thực hiện
+1. Ủy ban nhân dân các tỉnh, thành phố trực thuộc Trung ương có trách nhiệm
+chỉ đạo Sở Lao động Thương binh và Xã hội và các ...",answer,in_force,accepted,
+multi_002,multi_step,test,"Hãy so sánh hoặc tổng hợp quy định giữa Điều 19 (Trách nhiệm của Thủ trưởng các đơn vị sự nghiệp thuộc Bộ) và Điều 1 (Ban hành kèm theo Quyết định này Quy chế phân công, phân cấp quản) theo văn bản 1503/QĐ-BTP.",87964:A19; 87964:A1,"Văn bản 1503/QĐ-BTP quy định tại Điều 19 về Trách nhiệm của Thủ trưởng các đơn vị sự nghiệp thuộc Bộ: Điều19. Trách nhiệm của Thủ trưởng các đơn vị sự nghiệp thuộc Bộ
+1. Quyết định các nội dung quản lý công chức, viên chức của đơn vị được phân
+cấp tại ... Đồng thời tại Điều 1 về Ban hành kèm theo Quyết định này Quy chế phân công, phân cấp quản: Điều 1. Ban hành kèm theo Quyết định này Quy chế phân công, phân cấp quản
+lý công chức, viên chức và người lao động trong các đơn vị sự nghiệp của Bộ ...",answer,in_force,accepted,
+multi_003,multi_step,dev,Hãy so sánh hoặc tổng hợp quy định giữa Điều 13 (Trúng tuyển trong kỳ xét tuyển) và Điều 35 (Điều động viên chức) theo văn bản 116/2003/NĐ-CP.,19252:A13; 19252:A35,"Văn bản 116/2003/NĐ-CP quy định tại Điều 13 về Trúng tuyển trong kỳ xét tuyển: Điều13. Trúng tuyển trong kỳ xét tuyển
+Người trúng tuyển trong kỳ xét tuyển là người đủ tiêu chuẩn và điều kiện, được
+Hội đồng tuyển dụng xem xét và n... Đồng thời tại Điều 35 về Điều động viên chức: Điều35. Điều động viên chức
+1. Việc điều động viên chức phải căn cứ vào trình độ, năng lực của viên chức
+và nhu cầu công tác.
+2. Khi điều động viên ch...",answer,in_force,accepted,
+multi_004,multi_step,test,"Hãy so sánh hoặc tổng hợp quy định giữa Điều 5 (Xác định vị trí việc làm và danh mục vị trí việc làm của) và Điều 4 (Thống kê, đánh giá thực trạng đội ngũ cán bộ, công chức và người lao) theo văn bản 05/2013/TT-BNV.",37875:A5; 37875:A4,"Văn bản 05/2013/TT-BNV quy định tại Điều 5 về Xác định vị trí việc làm và danh mục vị trí việc làm của: Điều5. Xác định vị trí việc làm và danh mục vị trí việc làm của
+cơquan, tổ chức, đơn vị
+1. Trên cơ sở thống kê công việc, phân nhóm công việc; các yếu... Đồng thời tại Điều 4 về Thống kê, đánh giá thực trạng đội ngũ cán bộ, công chức và người lao: Điều4. Thống kê, đánh giá thực trạng đội ngũ cán bộ, công chức và người lao
+động hiện có
+Việc thống kê, đánh giá thực trạng đội ngũ cán bộ, công chức ...",answer,in_force,accepted,
+multi_005,multi_step,test,Hãy so sánh hoặc tổng hợp quy định giữa Điều 3 (Số lượng và thẩm quyền quản lý) và Điều 2 (Quyết định này có hiệu lực thi hành sau 10 ngày kể từ ngày ký.) theo văn bản 16/2013/QĐ-UBND.,60095:A3; 60095:A2,"Văn bản 16/2013/QĐ-UBND quy định tại Điều 3 về Số lượng và thẩm quyền quản lý: Điều3. Số lượng và thẩm quyền quản lý
+1. Mỗi xã, phường, thị trấn được ký kết 02 (hai) cộng tác viên xuất khẩu lao
+động.
+2. Cộng tác viên chịu sự quản... Đồng thời tại Điều 2 về Quyết định này có hiệu lực thi hành sau 10 ngày kể từ ngày ký.: Điều 2. Quyết định này có hiệu lực thi hành sau 10 ngày kể từ ngày ký....",answer,in_force,accepted,
+multi_006,multi_step,test,"Hãy so sánh hoặc tổng hợp quy định giữa Điều 14 (Quyền, trách nhiệm của công đoàn cấp trên) và Điều 12 (Quyền, trách nhiệm của công đoàn trong việc tổ chức và lãnh đạo) theo văn bản 43/2013/NĐ-CP.",32525:A14; 32525:A12,"Văn bản 43/2013/NĐ-CP quy định tại Điều 14 về Quyền, trách nhiệm của công đoàn cấp trên: Điều 14. Quyền, trách nhiệm của công đoàn cấp trên
+1. Tổng Liên đoàn Lao động Việt Nam căn cứ vào chức năng, nhiệm vụ, cơ cấu tổ
+chức bộ máy của công ... Đồng thời tại Điều 12 về Quyền, trách nhiệm của công đoàn trong việc tổ chức và lãnh đạo: Điều 12. Quyền, trách nhiệm của công đoàn trong việc tổ chức và lãnh đạo
+đình công
+Công đoàn cơ sở tại doanh nghiệp, cơ quan tổ chức sử dụng lao động ...",answer,in_force,accepted,
+multi_007,multi_step,dev,Hãy so sánh hoặc tổng hợp quy định giữa Điều 2 (Đối tượng áp dụng) và Điều 6 (Cấu trúc của tiêu chuẩn kỹ năng nghề quốc gia) theo văn bản 56/2015/TT-BLĐTBXH.,99135:A2; 99135:A6,"Văn bản 56/2015/TT-BLĐTBXH quy định tại Điều 2 về Đối tượng áp dụng: Điều2. Đối tượng áp dụng
+Thông tư này áp dụng đối với các cơ quan, tổ chức, cá nhân trong việc xây
+dựng, thẩm định và công bố tiêu chuẩn kỹ năng nghề ... Đồng thời tại Điều 6 về Cấu trúc của tiêu chuẩn kỹ năng nghề quốc gia: Điều6. Cấu trúc của tiêu chuẩn kỹ năng nghề quốc gia
+Cấu trúc của tiêu chuẩn kỹ năng nghề quốc gia của một nghề gồm có ba (03)
+thành phần cơ bản như s...",answer,in_force,accepted,
+multi_008,multi_step,dev,Hãy so sánh hoặc tổng hợp quy định giữa Điều 7 (Cấp lại Thư giới thiệu) và Điều 8 (Mẫu Thư giới thiệu) theo văn bản 21/2016/TTLT-BLĐTBXH-BCA-BNG.,117820:A7; 117820:A8,"Văn bản 21/2016/TTLT-BLĐTBXH-BCA-BNG quy định tại Điều 7 về Cấp lại Thư giới thiệu: Điều7. Cấp lại Thư giới thiệu
+1. Các trường hợp cấp lại Thư giới thiệu:
+a) Thư giới thiệu bị mất;
+b) Thư giới thiệu bị hỏng;
+c) Công dân Việt Nam thay... Đồng thời tại Điều 8 về Mẫu Thư giới thiệu: Điều8. Mẫu Thư giới thiệu
+Hình thức, nội dung của Thư giới thiệu theo Mẫu số 3 ban hành kèm theo Thông
+tư này....",answer,in_force,accepted,
+multi_009,multi_step,test,"Hãy so sánh hoặc tổng hợp quy định giữa Điều 2 (Quyết định này có hiệu lực thi hành sau 10 ngày kể từ ngày ký.) và Điều 4 (Chánh Văn phòng UBND tỉnh, Giám đốc các sở, ban, ngành và Chủ tịch) theo văn bản 40/2013/QĐ-UBND.",88163:A2; 88163:A4,"Văn bản 40/2013/QĐ-UBND quy định tại Điều 2 về Quyết định này có hiệu lực thi hành sau 10 ngày kể từ ngày ký.: Điều2. Quyết định này có hiệu lực thi hành sau 10 ngày kể từ ngày ký.
+Quyết định này thay thế Quyết định số 17/2011/QĐUBND ngày 07/3/2011 của UBND
+tỉn... Đồng thời tại Điều 4 về Chánh Văn phòng UBND tỉnh, Giám đốc các sở, ban, ngành và Chủ tịch: Điều4. Chánh Văn phòng UBND tỉnh, Giám đốc các sở, ban, ngành và Chủ tịch
+UBND các huyện, thị xã Long Khánh và thành phố Biên Hòa cùng các đơn vị có
+l...",answer,in_force,accepted,
+multi_010,multi_step,test,Hãy so sánh hoặc tổng hợp quy định giữa Điều 3 (Giao cho Thanh tra Nhà nước về an toàn lao động thuộc Bộ Lao động) và Điều 6 (Quyết định này có hiệu lực thi hành kể từ ngày ký.) theo văn bản 1407/QĐ-LĐTBXH.,8948:A3; 8948:A6,"Văn bản 1407/QĐ-LĐTBXH quy định tại Điều 3 về Giao cho Thanh tra Nhà nước về an toàn lao động thuộc Bộ Lao động: Điều3. Giao cho Thanh tra Nhà nước về an toàn lao động thuộc Bộ Lao động
+Thương binh và Xã hội phát hành và thống nhất quản lý các mẫu giấy phép bao
+g... Đồng thời tại Điều 6 về Quyết định này có hiệu lực thi hành kể từ ngày ký.: Điều6. Quyết định này có hiệu lực thi hành kể từ ngày ký.
+Bộ trưởng
+(Đã ký)
+Trần Đình Hoan...",answer,in_force,accepted,
+multi_011,multi_step,test,"Hãy so sánh hoặc tổng hợp quy định giữa Điều 10 () và Điều 7 (Côngty có nghĩa vụ sử dụng có hiệu quả, bảo toàn, phát triển vốn) theo văn bản 74/2000/QĐ-BCN.",5851:A10; 5851:A7,"Văn bản 74/2000/QĐ-BCN quy định tại Điều 10 về : Điều 10.
+1.Công ty có nghĩa vụ thực hiện đúng chế độ và các quy định về quản lý vốn,
+tàisản, các quỹ, về kế toán, hạch toán, chế độ kiểm toán và các c... Đồng thời tại Điều 7 về Côngty có nghĩa vụ sử dụng có hiệu quả, bảo toàn, phát triển vốn: Điều 7 . Côngty có nghĩa vụ sử dụng có hiệu quả, bảo toàn, phát triển vốn
+Nhà nước giao, baogồm cả phần vốn đầu tư vào doanh nghiệp khác (nếu có); nhậ...",answer,in_force,accepted,
+multi_012,multi_step,dev,Hãy so sánh hoặc tổng hợp quy định giữa Điều 1 (Phạm vi điều chỉnh) và Điều 2 (Đối tượng áp dụng) theo văn bản 37/2012/QĐ-TTg.,27761:A1; 27761:A2,"Văn bản 37/2012/QĐ-TTg quy định tại Điều 1 về Phạm vi điều chỉnh: Điều 1. Phạm vi điều chỉnh
+Thực hiện thí điểm mức chi tiền lương, thu nhập đối với ngành Bảo hiểm xã hội
+Việt Nam giai đoạn 20122015.... Đồng thời tại Điều 2 về Đối tượng áp dụng: Điều 2. Đối tượng áp dụng
+1. Đối tượng thí điểm mức chi tiền lương, gồm:
+a) Công chức, viên chức và người làm việc theo chế độ hợp đồng lao động trong...",answer,in_force,accepted,
+multi_013,multi_step,test,Hãy so sánh hoặc tổng hợp quy định giữa Điều 5 (Bản mô tả công việcvà khung năng lực vị trí việc làm) và Điều 4 (Danh mục vị trí việc làm) theo văn bản 10/2023/TT-BXD.,162960:A5; 162960:A4,"Văn bản 10/2023/TT-BXD quy định tại Điều 5 về Bản mô tả công việcvà khung năng lực vị trí việc làm: Điều5. Bản mô tả công việcvà khung năng lực vị trí việc làm
+1. Bản mô tả công việc và khung năng lực của vị trí việc làm lãnh đạo, quản
+lý quy định tạ... Đồng thời tại Điều 4 về Danh mục vị trí việc làm: Điều4. Danh mục vị trí việc làm
+1. Danh mục vị trí việc làm lãnh đạo, quản lý trong đơn vị sự nghiệp công lập
+thuộc ngành, lĩnh vực xây dựng quy định ...",answer,in_force,accepted,
+multi_014,multi_step,dev,"Hãy so sánh hoặc tổng hợp quy định giữa Điều 50 (Điều khoản chuyển tiếp) và Điều 32 (Tạm ứng, thanh toán, quyết toán chi phíkhám bệnh, chữa bệnh bảo) theo văn bản 25/2008/QH12.",12326:A50; 12326:A32,"Văn bản 25/2008/QH12 quy định tại Điều 50 về Điều khoản chuyển tiếp: Điều 50. Điều khoản chuyển tiếp
+1. Thẻ bảo hiểm y tế và thẻ khám bệnh, chữa bệnh miễn phí cho trẻ em dưới 6
+tuổi đã được cấp trước ngày Luật này có hi... Đồng thời tại Điều 32 về Tạm ứng, thanh toán, quyết toán chi phíkhám bệnh, chữa bệnh bảo: Điều 32. Tạm ứng, thanh toán, quyết toán chi phíkhám bệnh, chữa bệnh bảo
+hiểm y tế
+1. Tổ chức bảo hiểm y tế có trách nhiệm tạm ứng kinh phí hàng quý c...",answer,in_force,accepted,
+multi_015,multi_step,test,"Hãy so sánh hoặc tổng hợp quy định giữa Điều 5 (Hình thức tổ chức hoạt động văn hóa, văn nghệ) và Điều 18 (Hiệu lực thi hành) theo văn bản 16/2013/TT-BLĐTBXH.",43814:A5; 43814:A18,"Văn bản 16/2013/TT-BLĐTBXH quy định tại Điều 5 về Hình thức tổ chức hoạt động văn hóa, văn nghệ: Điều5. Hình thức tổ chức hoạt động văn hóa, văn nghệ
+Hoạt động văn hóa, văn nghệ cho học sinh, sinh viên được thể hiện dưới một số
+hình thức sau:
+1. T... Đồng thời tại Điều 18 về Hiệu lực thi hành: Điều18. Hiệu lực thi hành
+1. Thông tư này có hiệu lực thi hành kể từ ngày 12 tháng 10 năm 2013.
+2. Trong quá trình thực hiện, nếu có vướng mắc, đề ngh...",answer,in_force,accepted,
+multi_016,multi_step,dev,Hãy so sánh hoặc tổng hợp quy định giữa Điều 13 (Cử đại diện tập thể lao động để tổ chức và lãnh đạo đình công theo) và Điều 14 (Xác định người lao động không tham gia đình công theo khoản 1 Điều) theo văn bản 133/2007/NĐ-CP.,13686:A13; 13686:A14,"Văn bản 133/2007/NĐ-CP quy định tại Điều 13 về Cử đại diện tập thể lao động để tổ chức và lãnh đạo đình công theo: Điều13. Cử đại diện tập thể lao động để tổ chức và lãnh đạo đình công theo
+Điều 172a của Bộ luật Lao động
+Khi xảy ra tranh chấp lao động tập thể tại c... Đồng thời tại Điều 14 về Xác định người lao động không tham gia đình công theo khoản 1 Điều: Điều14. Xác định người lao động không tham gia đình công theo khoản 1 Điều
+174d của Bộ luật Lao động
+Người lao động được xác định là người không tham ...",answer,in_force,accepted,
+multi_017,multi_step,test,"Hãy so sánh hoặc tổng hợp quy định giữa Điều 5 (Trình tự, thủ tục) và Điều 4 (Hồ sơ đề nghị xét tặng hoặc truy tặng) theo văn bản 03/2014/TTLT-BNV-BQP-BLĐTBXH.",37379:A5; 37379:A4,"Văn bản 03/2014/TTLT-BNV-BQP-BLĐTBXH quy định tại Điều 5 về Trình tự, thủ tục: Điều5. Trình tự, thủ tục
+Trình tự, thủ tục đề nghị xét tặng hoặc truy tặng Danh hiệu vinh dự Nhà nước
+“Bà mẹ Việt Nam anh hùng” thực hiện theo quy địn... Đồng thời tại Điều 4 về Hồ sơ đề nghị xét tặng hoặc truy tặng: Điều4. Hồ sơ đề nghị xét tặng hoặc truy tặng
+Hồ sơ đề nghị xét tặng hoặc truy tặng Danh hiệu vinh dự Nhà nước “Bà mẹ Việt
+Nam anh hùng” thực hiện theo...",answer,in_force,accepted,
+multi_018,multi_step,test,Hãy so sánh hoặc tổng hợp quy định giữa Điều 4 (Tổ chức thực hiện) và Điều 2 (Điểm b Khoản 3 Điều 5 của Nghị định số 195/CP ngày 31 tháng 12 năm) theo văn bản 81/2012/NĐ-CP.,27792:A4; 27792:A2,"Văn bản 81/2012/NĐ-CP quy định tại Điều 4 về Tổ chức thực hiện: Điều4. Tổ chức thực hiện
+Các Bộ trưởng, Thủ trưởng cơ quan ngang Bộ, Thủ trưởng cơ quan thuộc Chính
+phủ, Chủ tịch Ủy ban nhân dân tỉnh, thành phố trực... Đồng thời tại Điều 2 về Điểm b Khoản 3 Điều 5 của Nghị định số 195/CP ngày 31 tháng 12 năm: Điều2. Điểm b Khoản 3 Điều 5 của Nghị định số 195/CP ngày 31 tháng 12 năm
+1994 của Chính phủ được sửa đổi, bổ sung tại Khoản 2 Điều 1 của Nghị định số...",answer,in_force,accepted,
+multi_019,multi_step,test,Hãy so sánh hoặc tổng hợp quy định giữa Điều 2 (Nhiệm vụ và quyền hạn) và Điều 5 (Trách nhiệm thi hành) theo văn bản 106/2012/NĐ-CP.,30409:A2; 30409:A5,"Văn bản 106/2012/NĐ-CP quy định tại Điều 2 về Nhiệm vụ và quyền hạn: Điều2. Nhiệm vụ và quyền hạn
+Bộ Lao động Thương binh và Xã hội thực hiện nhiệm vụ, quyền hạn quy định tại
+Nghị định số 36/2012/NĐCP ngày 18 tháng 4 nă... Đồng thời tại Điều 5 về Trách nhiệm thi hành: Điều5. Trách nhiệm thi hành
+Các Bộ trưởng, Thủ trưởng cơ quan ngang Bộ, Thủ trưởng cơ quan thuộc Chính
+phủ, Chủ tịch Ủy ban nhân dân tỉnh, thành phố t...",answer,in_force,accepted,
+multi_020,multi_step,test,Hãy so sánh hoặc tổng hợp quy định giữa Điều 18 (Tổ chức thực hiện) và Điều 2 (Mở và sử dụng tài khoản tiền gửi chi phí quản lý bộ máy) theo văn bản 134/2011/TT-BTC.,26944:A18; 26944:A2,"Văn bản 134/2011/TT-BTC quy định tại Điều 18 về Tổ chức thực hiện: Điều18. Tổ chức thực hiện
+1. Để thực hiện tốt công tác chi trả lương hưu, trợ cấp bảo hiểm xã hội, trợ
+cấp thất nghiệp, thu bảo hiểm xã hội tự nguyện ... Đồng thời tại Điều 2 về Mở và sử dụng tài khoản tiền gửi chi phí quản lý bộ máy: Điều2. Mở và sử dụng tài khoản tiền gửi chi phí quản lý bộ máy
+Các đơn vị thuộc Bảo hiểm xã hội Việt Nam; Bảo hiểm xã hội thuộc Bộ Quốc
+phòng, Bộ Công...",answer,in_force,accepted,
+val_001,validity,dev,Văn bản 54/2009/QĐ-UBND (Quyết định 54/2009/QĐ-UBND) hiện nay còn hiệu lực pháp luật hay đã hết hiệu lực?,54164:A1,Văn bản Quyết định 54/2009/QĐ-UBND (54/2009/QĐ-UBND) hiện nay đã hết hiệu lực toàn bộ theo dữ liệu cơ sở dữ liệu pháp luật.,answer,expired,accepted,
+val_002,validity,test,Văn bản 6282/2003/QĐ-BYT (Quyết định 6282/2003/QĐ-BYT) hiện nay còn hiệu lực pháp luật hay đã hết hiệu lực?,46981:A1,Văn bản Quyết định 6282/2003/QĐ-BYT (6282/2003/QĐ-BYT) hiện nay đã hết hiệu lực toàn bộ theo dữ liệu cơ sở dữ liệu pháp luật.,answer,expired,accepted,
+val_003,validity,test,Văn bản 70/2006/QH11 (Luật 70/2006/QH11) hiện còn hiệu lực toàn bộ hay đã hết hiệu lực một phần?,15052:A1,"Văn bản Luật 70/2006/QH11 (70/2006/QH11) đã hết hiệu lực một phần, cần kiểm tra đối chiếu văn bản sửa đổi bổ sung.",answer,partial,accepted,
+val_004,validity,test,Văn bản 05/2011/TTLT-UBDT-BTC (Thông tư liên tịch 05/2011/TTLT-UBDT-BTC) hiện nay còn hiệu lực pháp luật hay đã hết hiệu lực?,27249:A1,Văn bản Thông tư liên tịch 05/2011/TTLT-UBDT-BTC (05/2011/TTLT-UBDT-BTC) hiện nay đã hết hiệu lực toàn bộ theo dữ liệu cơ sở dữ liệu pháp luật.,answer,expired,accepted,
+val_005,validity,test,Văn bản 03/2006/NĐ-CP (Nghị định 03/2006/NĐ-CP) hiện nay còn hiệu lực pháp luật hay đã hết hiệu lực?,16829:A1,Văn bản Nghị định 03/2006/NĐ-CP (03/2006/NĐ-CP) hiện nay đã hết hiệu lực toàn bộ theo dữ liệu cơ sở dữ liệu pháp luật.,answer,expired,accepted,
+val_006,validity,test,Văn bản 86/2008/QĐ-TTg (Quyết định 86/2008/QĐ-TTg) hiện nay còn hiệu lực pháp luật hay đã hết hiệu lực?,24118:A1,Văn bản Quyết định 86/2008/QĐ-TTg (86/2008/QĐ-TTg) hiện nay đã hết hiệu lực toàn bộ theo dữ liệu cơ sở dữ liệu pháp luật.,answer,expired,accepted,
+val_007,validity,dev,Văn bản 178/2007/NĐ-CP (Nghị định 178/2007/NĐ-CP) hiện nay còn hiệu lực pháp luật hay đã hết hiệu lực?,13028:A1,Văn bản Nghị định 178/2007/NĐ-CP (178/2007/NĐ-CP) hiện nay đã hết hiệu lực toàn bộ theo dữ liệu cơ sở dữ liệu pháp luật.,answer,expired,accepted,
+val_008,validity,dev,Văn bản 102/2013/NĐ-CP (Nghị định 102/2013/NĐ-CP) hiện nay còn hiệu lực pháp luật hay đã hết hiệu lực?,32399:A1,Văn bản Nghị định 102/2013/NĐ-CP (102/2013/NĐ-CP) hiện nay đã hết hiệu lực toàn bộ theo dữ liệu cơ sở dữ liệu pháp luật.,answer,expired,accepted,
+val_009,validity,test,Văn bản 16/2013/QĐ-UBND (Quyết định 16/2013/QĐ-UBND) hiện nay còn hiệu lực pháp luật hay đã hết hiệu lực?,60095:A1,Văn bản Quyết định 16/2013/QĐ-UBND (16/2013/QĐ-UBND) hiện nay đã hết hiệu lực toàn bộ theo dữ liệu cơ sở dữ liệu pháp luật.,answer,expired,accepted,
+val_010,validity,test,Văn bản 66/2001/TT-BTC (Thông tư 66/2001/TT-BTC) hiện nay còn hiệu lực pháp luật hay đã hết hiệu lực?,23167:A1,Văn bản Thông tư 66/2001/TT-BTC (66/2001/TT-BTC) hiện nay đã hết hiệu lực toàn bộ theo dữ liệu cơ sở dữ liệu pháp luật.,answer,expired,accepted,
+val_011,validity,test,Văn bản 02/2007/TT-BLĐTBXH (Thông tư 02/2007/TT-BLĐTBXH) hiện còn hiệu lực toàn bộ hay đã hết hiệu lực một phần?,14220:A1,"Văn bản Thông tư 02/2007/TT-BLĐTBXH (02/2007/TT-BLĐTBXH) đã hết hiệu lực một phần, cần kiểm tra đối chiếu văn bản sửa đổi bổ sung.",answer,partial,accepted,
+val_012,validity,test,Văn bản 71/2008/NĐ-CP (Nghị định 71/2008/NĐ-CP) hiện nay còn hiệu lực pháp luật hay đã hết hiệu lực?,12699:A1,Văn bản Nghị định 71/2008/NĐ-CP (71/2008/NĐ-CP) hiện nay đã hết hiệu lực toàn bộ theo dữ liệu cơ sở dữ liệu pháp luật.,answer,expired,accepted,
+val_013,validity,test,Văn bản 114/2020/TT-BQP (Thông tư 114/2020/TT-BQP) có còn hiệu lực thi hành không?,157194:A1,Văn bản Thông tư 114/2020/TT-BQP (114/2020/TT-BQP) hiện nay đang còn hiệu lực thi hành.,answer,in_force,accepted,
+val_014,validity,test,Văn bản 58/2014/QH13 (Luật 58/2014/QH13) có còn hiệu lực thi hành không?,46744:A1,Văn bản Luật 58/2014/QH13 (58/2014/QH13) hiện nay đang còn hiệu lực thi hành.,answer,in_force,accepted,
+val_015,validity,test,Văn bản 136/2020/TT-BQP (Thông tư 136/2020/TT-BQP) có còn hiệu lực thi hành không?,146985:A1,Văn bản Thông tư 136/2020/TT-BQP (136/2020/TT-BQP) hiện nay đang còn hiệu lực thi hành.,answer,in_force,accepted,
+val_016,validity,dev,Văn bản 31/2007/TT-BLĐTBXH (Thông tư 31/2007/TT-BLĐTBXH) có còn hiệu lực thi hành không?,12961:A1,Văn bản Thông tư 31/2007/TT-BLĐTBXH (31/2007/TT-BLĐTBXH) hiện nay đang còn hiệu lực thi hành.,answer,in_force,accepted,
+val_017,validity,test,Văn bản 28/2016/TT-BLĐTBXH (Thông tư 28/2016/TT-BLĐTBXH) có còn hiệu lực thi hành không?,117832:A1,Văn bản Thông tư 28/2016/TT-BLĐTBXH (28/2016/TT-BLĐTBXH) hiện nay đang còn hiệu lực thi hành.,answer,in_force,accepted,
+val_018,validity,dev,Văn bản 19/2023/TT-BGDĐT (Thông tư 19/2023/TT-BGDĐT) có còn hiệu lực thi hành không?,164235:A1,Văn bản Thông tư 19/2023/TT-BGDĐT (19/2023/TT-BGDĐT) hiện nay đang còn hiệu lực thi hành.,answer,in_force,accepted,
+val_019,validity,dev,Văn bản 19/2016/TT-BYT (Thông tư 19/2016/TT-BYT) có còn hiệu lực thi hành không?,157059:A1,Văn bản Thông tư 19/2016/TT-BYT (19/2016/TT-BYT) hiện nay đang còn hiệu lực thi hành.,answer,in_force,accepted,
+val_020,validity,test,Văn bản 12/1995/TTLB (Thông tư liên tịch 12/1995/TTLB) có còn hiệu lực thi hành không?,43363:A1,Văn bản Thông tư liên tịch 12/1995/TTLB (12/1995/TTLB) hiện nay đang còn hiệu lực thi hành.,answer,in_force,accepted,
+oos_001,out_of_scope,test,Cách làm món phở bò truyền thống tại nhà thơm ngon nhất?,,Câu hỏi nằm ngoài phạm vi tư vấn về pháp luật lao động Việt Nam của hệ thống.,refuse,none,accepted,
+oos_002,out_of_scope,test,Viết một hàm Python để sắp xếp mảng theo giải thuật quicksort.,,Câu hỏi nằm ngoài phạm vi tư vấn về pháp luật lao động Việt Nam của hệ thống.,refuse,none,accepted,
+oos_003,out_of_scope,test,Quy định về mức xử phạt vi phạm nồng độ cồn khi lái xe ô tô theo luật giao thông đường bộ?,,Câu hỏi nằm ngoài phạm vi tư vấn về pháp luật lao động Việt Nam của hệ thống.,refuse,none,accepted,
+oos_004,out_of_scope,test,Mức hình phạt đối với tội trộm cắp tài sản theo Bộ luật Hình sự là bao nhiêu năm tù?,,Câu hỏi nằm ngoài phạm vi tư vấn về pháp luật lao động Việt Nam của hệ thống.,refuse,none,accepted,
+oos_005,out_of_scope,test,Thủ tục đăng ký kết hôn có yếu tố nước ngoài tại Sở Tư pháp?,,Câu hỏi nằm ngoài phạm vi tư vấn về pháp luật lao động Việt Nam của hệ thống.,refuse,none,accepted,
+oos_006,out_of_scope,test,Khoảng cách từ Trái Đất đến Mặt Trăng là bao nhiêu km?,,Câu hỏi nằm ngoài phạm vi tư vấn về pháp luật lao động Việt Nam của hệ thống.,refuse,none,accepted,
+oos_007,out_of_scope,dev,Thời tiết Hà Nội ngày mai dự báo có mưa hay nắng?,,Câu hỏi nằm ngoài phạm vi tư vấn về pháp luật lao động Việt Nam của hệ thống.,refuse,none,accepted,
+oos_008,out_of_scope,test,Cách sửa lỗi kết nối wifi bị chấm than vàng trên hệ điều hành Windows?,,Câu hỏi nằm ngoài phạm vi tư vấn về pháp luật lao động Việt Nam của hệ thống.,refuse,none,accepted,
+oos_009,out_of_scope,test,Chỉ số VN-Index hôm nay tăng hay giảm bao nhiêu điểm?,,Câu hỏi nằm ngoài phạm vi tư vấn về pháp luật lao động Việt Nam của hệ thống.,refuse,none,accepted,
+oos_010,out_of_scope,dev,Quy trình cấp sổ đỏ và chuyển nhượng quyền sử dụng đất đai cho cá nhân?,,Câu hỏi nằm ngoài phạm vi tư vấn về pháp luật lao động Việt Nam của hệ thống.,refuse,none,accepted,
+oos_011,out_of_scope,test,Bảo hiểm trách nhiệm dân sự bắt buộc của chủ xe mô tô xe máy mua ở đâu?,,Câu hỏi nằm ngoài phạm vi tư vấn về pháp luật lao động Việt Nam của hệ thống.,refuse,none,accepted,
+oos_012,out_of_scope,test,Thủ tục xin cấp hộ chiếu phổ thông trực tuyến trên Cổng dịch vụ công quốc gia?,,Câu hỏi nằm ngoài phạm vi tư vấn về pháp luật lao động Việt Nam của hệ thống.,refuse,none,accepted,
+oos_013,out_of_scope,dev,Đội bóng nào đã giành chức vô địch giải bóng đá Ngoại hạng Anh mùa giải trước?,,Câu hỏi nằm ngoài phạm vi tư vấn về pháp luật lao động Việt Nam của hệ thống.,refuse,none,accepted,
+oos_014,out_of_scope,dev,Hướng dẫn cách chăm sóc cây phong lan ra hoa đúng dịp Tết Nguyên Đán?,,Câu hỏi nằm ngoài phạm vi tư vấn về pháp luật lao động Việt Nam của hệ thống.,refuse,none,accepted,
+follow_001,followup,dev,"Vậy trong trường hợp này, quyền và trách nhiệm cụ thể được áp dụng ra sao?",129853:A4,"Căn cứ Điều 4 05/2018/TT-BLĐTBXH: Điều4. Hiệu lực thi hành
+Thông tư này có hiệu lực thi hành kể từ ngày 15 tháng 8 năm 2018. Các chế độ
+quy định tại Thông tư này được thực hiện kể từ ngày 01 tháng 7 năm 2018.
+Trong quá trình thực hiện...",answer,in_force,accepted,
+follow_002,followup,dev,"Vậy trong trường hợp này, quyền và trách nhiệm cụ thể được áp dụng ra sao?",162960:A9,"Căn cứ Điều 9 10/2023/TT-BXD: Điều9. Hiệu lựcvàtrách nhiệm thi hành
+1. Thông tư này có hiệu lực thi hành kể từ ngày 05 tháng 12 năm 2023.
+2. Bộ trưởng, Thủ trưởng cơ quan ngang Bộ, Thủ trưởng cơ quan thuộc Chính
+phủ, người đứng đầ...",answer,in_force,accepted,
+follow_003,followup,dev,"Vậy trong trường hợp này, quyền và trách nhiệm cụ thể được áp dụng ra sao?",26042:A12,"Căn cứ Điều 12 37/2010/TT-BLĐTBXH: Điều 12. Quyền hạn của tổ chức hoạt động dịch vụ kiểm định kỹ thuật an toàn
+lao động
+1. Được cung cấp dịch vụ kiểm định kỹ thuật an toàn cho các tổ chức, cá nhân
+có sử dụng đối tượng kiểm định phù hợp...",answer,in_force,accepted,
+follow_004,followup,test,"Vậy trong trường hợp này, quyền và trách nhiệm cụ thể được áp dụng ra sao?",43813:A9,"Căn cứ Điều 9 15/2013/TT-BLĐTBXH: Điều9. Xây dựng và ban hành Điều lệ Hội thao
+1. Ban tổ chức Hội thao xây dựng và ban hành Điều lệ Hội thao.
+2. Nội dung cơ bản của Điều lệ Hội thao gồm:
+a) Tên Hội thao;
+b) Mục đích, yêu cầu;
+c) Thời ...",answer,in_force,accepted,
+follow_005,followup,test,"Vậy trong trường hợp này, quyền và trách nhiệm cụ thể được áp dụng ra sao?",27218:A7,"Căn cứ Điều 7 73/2011/QĐ-TTg: Điều7. Hiệu lực thi hành
+Quyết định này có hiệu lực kể từ ngày 15 tháng 02 năm 2012. Bãi bỏ Quyết định
+số 155/2003/QĐTTg ngày 30 tháng 7 năm 2003 của Thủ tướng Chính phủ quy định
+về một số chế độ phụ ...",answer,in_force,accepted,
+follow_006,followup,test,"Vậy trong trường hợp này, quyền và trách nhiệm cụ thể được áp dụng ra sao?",33544:A2,"Căn cứ Điều 2 05/2014/TT-BTP: Điều2. Điều kiện, phạm vi công bố thủ tục hành chính
+1. Điều kiện đối với thủ tục hành chính được công bố
+a) Thủ tục hành chính thuộc phạm vi điều chỉnh của Nghị định số 63/2010/NĐCP
+ngày 08 tháng 6 n...",answer,in_force,accepted,
+follow_007,followup,test,"Vậy trong trường hợp này, quyền và trách nhiệm cụ thể được áp dụng ra sao?",95800:A3,"Căn cứ Điều 3 28/2015/TT-BLĐTBXH: Điều3. Tham gia bảo hiểm thất nghiệp theo quy định tại Khoản 2 Điều 11 Nghị
+định số 28/2015/NĐCP
+1. Người sử dụng lao động phải lập và nộp hồ sơ tham gia bảo hiểm thất nghiệp
+của người lao động cho tổ...",answer,in_force,accepted,
+follow_008,followup,test,"Vậy trong trường hợp này, quyền và trách nhiệm cụ thể được áp dụng ra sao?",15052:A101,"Căn cứ Điều 101 70/2006/QH11: Điều101. Công bố thông tin của công ty đại chúng
+1. Trong thời hạn mười ngày, kể từ ngày có báo cáo tài chính năm được kiểm
+toán, công ty đại chúng phải công bố thông tin định kỳ về báo cáo tài chính
+...",answer,in_force,accepted,
+follow_009,followup,test,"Vậy trong trường hợp này, quyền và trách nhiệm cụ thể được áp dụng ra sao?",46744:A6,"Căn cứ Điều 6 58/2014/QH13: Điều6. Chính sách của Nhà nước đối với bảo hiểm xã hội
+1. Khuyến khích, tạo điều kiện để cơ quan, tổ chức, cá nhân tham gia bảo hiểm
+xã hội.
+2. Hỗ trợ người tham gia bảo hiểm xã hội tự nguyện.
+3. Bảo ...",answer,in_force,accepted,
+follow_010,followup,test,"Vậy trong trường hợp này, quyền và trách nhiệm cụ thể được áp dụng ra sao?",137202:A3,"Căn cứ Điều 3 39/2018/TT-BYT: Điều 3. Cơ cấu giá dịch vụ khám bệnh, chữa bệnh bảo hiểm y tế
+Giá các dịch vụ khám bệnh, chữa bệnh quy định tại Thông tư này được xây dựng
+trên cơ sở chi phí trực tiếp và tiền lương để bảo đảm cho việ...",answer,in_force,accepted,

@@ -1,0 +1,22 @@
+dense_top_k: 40
+sparse_top_k: 40
+rrf_k: 60
+fused_top_k: 30
+hybrid:
+  enabled: true
+rerank:
+  enabled: true
+  model: "AITeamVN/Vietnamese_Reranker"
+  max_length: 1024
+  batch_size: 8
+  top_k: 8
+parent_child:
+  enabled: true
+  max_parents: 5
+expired_policy: "annotate"          # annotate | penalize | exclude
+status_penalty: 2.0
+context_token_budget: 4000
+sparse:
+  tokenizer: "syllable_bigram"
+  k1: 1.2
+  b: 0.75

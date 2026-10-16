@@ -1,0 +1,17 @@
+{
+  "experiment": "A4",
+  "description": "A3 + parent-child expansion",
+  "split": "dev",
+  "num_evaluated": 10,
+  "recall@5": 0.5,
+  "recall@10": 0.5,
+  "mrr@10": 0.295,
+  "ndcg@10": 0.3448,
+  "citation_accuracy": 0.2,
+  "citation_support": 1.0,
+  "refusal_accuracy": 1.0,
+  "avg_llm_calls": 1.0,
+  "latency_p50_ms": 318.4,
+  "latency_p95_ms": 375.34,
+  "latency_mean_ms": 324.94
+}

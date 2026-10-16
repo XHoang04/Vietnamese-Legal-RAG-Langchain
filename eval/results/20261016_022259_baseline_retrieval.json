@@ -1,0 +1,1328 @@
+{
+  "timestamp": "20261016_022259",
+  "config": {
+    "hybrid_enabled": true,
+    "rerank_enabled": true,
+    "parent_child_enabled": true,
+    "embed_model": "fake-embedder"
+  },
+  "dev": {
+    "num_evaluated": 28,
+    "overall": {
+      "mrr@10": 0.1949829931972789,
+      "ndcg@10": 0.21496393446364362,
+      "recall@10": 0.3392857142857143,
+      "recall@5": 0.30357142857142855
+    },
+    "by_category": {
+      "single": {
+        "mrr@10": 0.28919413919413917,
+        "ndcg@10": 0.3678301886317481,
+        "recall@10": 0.6153846153846154,
+        "recall@5": 0.5384615384615384
+      },
+      "multi_step": {
+        "mrr@10": 0.2833333333333333,
+        "ndcg@10": 0.2061996187948827,
+        "recall@10": 0.25,
+        "recall@5": 0.25
+      },
+      "validity": {
+        "mrr@10": 0.0,
+        "ndcg@10": 0.0,
+        "recall@10": 0.0,
+        "recall@5": 0.0
+      },
+      "followup": {
+        "mrr@10": 0.0,
+        "ndcg@10": 0.0,
+        "recall@10": 0.0,
+        "recall@5": 0.0
+      }
+    },
+    "latency_ms": {
+      "mean": 330.1,
+      "p50": 321.87,
+      "p95": 394.83
+    },
+    "per_query": [
+      {
+        "id": "single_004",
+        "category": "single",
+        "question": "Điều kiện và trình tự thủ tục về nguyên tắc, thủ tục, trình tự, hồ sơ xét công nhận người có theo 05/2011/TTLT-UBDT-BTC gồm những gì?",
+        "metrics": {
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.5,
+          "ndcg@10": 0.6309297535714575
+        },
+        "latency_ms": 419.7559356689453,
+        "num_retrieved": 5
+      },
+      {
+        "id": "single_005",
+        "category": "single",
+        "question": "Theo quy định tại 05/2013/TT-BNV, thống kê công việc theo chức năng, nhiệm vụ, quyền hạn của cơ quan, được quy định cụ thể như thế nào?",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.14285714285714285,
+          "ndcg@10": 0.3333333333333333
+        },
+        "latency_ms": 324.24187660217285,
+        "num_retrieved": 7
+      },
+      {
+        "id": "single_010",
+        "category": "single",
+        "question": "Quy định pháp luật về xây dựng, ban hành nghị quyết liên tịch theo Điều 73 của 17/2008/QH12 là gì?",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 309.38243865966797,
+        "num_retrieved": 7
+      },
+      {
+        "id": "single_011",
+        "category": "single",
+        "question": "Trách nhiệm thực hiện theo 19/2016/TT-BYT về trách nhiệm của người làm công tác y tế tại cơ sở lao động đối với bao gồm những nội dung gì?",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 323.96745681762695,
+        "num_retrieved": 7
+      },
+      {
+        "id": "single_013",
+        "category": "single",
+        "question": "Quy định pháp luật về điều chỉnh chương trình xây dựng luật, pháp lệnh theo Điều 29 của 17/2008/QH12 là gì?",
+        "metrics": {
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0
+        },
+        "latency_ms": 297.3794937133789,
+        "num_retrieved": 7
+      },
+      {
+        "id": "single_019",
+        "category": "single",
+        "question": "Quy định pháp luật về nguồn kinh phí. theo Điều 3 của 01/2013/TTLT-BNG-BNV-BTC-BLĐTBXH là gì?",
+        "metrics": {
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.2,
+          "ndcg@10": 0.38685280723454163
+        },
+        "latency_ms": 313.2202625274658,
+        "num_retrieved": 8
+      },
+      {
+        "id": "single_022",
+        "category": "single",
+        "question": "Quy định về thời hạn cấp giấy chứng nhận đăng ký hoạt động lưu ký chứng khoán tại 70/2006/QH11 quy định thời gian cụ thể là bao lâu?",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 324.951171875,
+        "num_retrieved": 7
+      },
+      {
+        "id": "single_024",
+        "category": "single",
+        "question": "Trách nhiệm thực hiện theo 27/2022/NĐ-CP về trách nhiệm thi hành bao gồm những nội dung gì?",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 318.54748725891113,
+        "num_retrieved": 7
+      },
+      {
+        "id": "single_029",
+        "category": "single",
+        "question": "Quy định pháp luật về thời điểm hưởng lương hưu theo Điều 76 của 58/2014/QH13 là gì?",
+        "metrics": {
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.25,
+          "ndcg@10": 0.43067655807339306
+        },
+        "latency_ms": 310.4686737060547,
+        "num_retrieved": 8
+      },
+      {
+        "id": "single_033",
+        "category": "single",
+        "question": "Theo quy định tại 61/2011/QĐ-TTg, trình tự, thủ tục và thẩm quyền quyết định miễn tiền sử dụng đất, được quy định cụ thể như thế nào?",
+        "metrics": {
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0
+        },
+        "latency_ms": 321.06971740722656,
+        "num_retrieved": 7
+      },
+      {
+        "id": "single_034",
+        "category": "single",
+        "question": "Trách nhiệm thực hiện theo 39/2015/TTLT-BLĐTBXH-BGDĐT-BNV về trách nhiệm của ủy ban nhân dân huyện, quận, thị xã, thành phố bao gồm những nội dung gì?",
+        "metrics": {
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.3333333333333333,
+          "ndcg@10": 0.5
+        },
+        "latency_ms": 345.5822467803955,
+        "num_retrieved": 8
+      },
+      {
+        "id": "single_037",
+        "category": "single",
+        "question": "Quy định pháp luật về đối tượng áp dụng theo Điều 2 của 28/2015/TT-BLĐTBXH là gì?",
+        "metrics": {
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.3333333333333333,
+          "ndcg@10": 0.5
+        },
+        "latency_ms": 330.97267150878906,
+        "num_retrieved": 8
+      },
+      {
+        "id": "single_045",
+        "category": "single",
+        "question": "Quy định pháp luật về bộ tài chính phối hợp với tổng liên đoàn lao động việt nam và bộ theo Điều 2 của 1213/QĐ-TTg là gì?",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 336.76815032958984,
+        "num_retrieved": 7
+      },
+      {
+        "id": "multi_003",
+        "category": "multi_step",
+        "question": "Hãy so sánh hoặc tổng hợp quy định giữa Điều 13 (Trúng tuyển trong kỳ xét tuyển) và Điều 35 (Điều động viên chức) theo văn bản 116/2003/NĐ-CP.",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 344.667911529541,
+        "num_retrieved": 6
+      },
+      {
+        "id": "multi_007",
+        "category": "multi_step",
+        "question": "Hãy so sánh hoặc tổng hợp quy định giữa Điều 2 (Đối tượng áp dụng) và Điều 6 (Cấu trúc của tiêu chuẩn kỹ năng nghề quốc gia) theo văn bản 56/2015/TT-BLĐTBXH.",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 346.8644618988037,
+        "num_retrieved": 7
+      },
+      {
+        "id": "multi_008",
+        "category": "multi_step",
+        "question": "Hãy so sánh hoặc tổng hợp quy định giữa Điều 7 (Cấp lại Thư giới thiệu) và Điều 8 (Mẫu Thư giới thiệu) theo văn bản 21/2016/TTLT-BLĐTBXH-BCA-BNG.",
+        "metrics": {
+          "recall@5": 0.5,
+          "recall@10": 0.5,
+          "mrr@10": 0.5,
+          "ndcg@10": 0.38685280723454163
+        },
+        "latency_ms": 322.9632377624512,
+        "num_retrieved": 6
+      },
+      {
+        "id": "multi_012",
+        "category": "multi_step",
+        "question": "Hãy so sánh hoặc tổng hợp quy định giữa Điều 1 (Phạm vi điều chỉnh) và Điều 2 (Đối tượng áp dụng) theo văn bản 37/2012/QĐ-TTg.",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 321.1855888366699,
+        "num_retrieved": 8
+      },
+      {
+        "id": "multi_014",
+        "category": "multi_step",
+        "question": "Hãy so sánh hoặc tổng hợp quy định giữa Điều 50 (Điều khoản chuyển tiếp) và Điều 32 (Tạm ứng, thanh toán, quyết toán chi phíkhám bệnh, chữa bệnh bảo) theo văn bản 25/2008/QH12.",
+        "metrics": {
+          "recall@5": 0.5,
+          "recall@10": 0.5,
+          "mrr@10": 0.2,
+          "ndcg@10": 0.23719771276929622
+        },
+        "latency_ms": 348.5450744628906,
+        "num_retrieved": 8
+      },
+      {
+        "id": "multi_016",
+        "category": "multi_step",
+        "question": "Hãy so sánh hoặc tổng hợp quy định giữa Điều 13 (Cử đại diện tập thể lao động để tổ chức và lãnh đạo đình công theo) và Điều 14 (Xác định người lao động không tham gia đình công theo khoản 1 Điều) theo văn bản 133/2007/NĐ-CP.",
+        "metrics": {
+          "recall@5": 0.5,
+          "recall@10": 0.5,
+          "mrr@10": 1.0,
+          "ndcg@10": 0.6131471927654584
+        },
+        "latency_ms": 435.67752838134766,
+        "num_retrieved": 6
+      },
+      {
+        "id": "val_001",
+        "category": "validity",
+        "question": "Văn bản 54/2009/QĐ-UBND (Quyết định 54/2009/QĐ-UBND) hiện nay còn hiệu lực pháp luật hay đã hết hiệu lực?",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 322.3116397857666,
+        "num_retrieved": 8
+      },
+      {
+        "id": "val_007",
+        "category": "validity",
+        "question": "Văn bản 178/2007/NĐ-CP (Nghị định 178/2007/NĐ-CP) hiện nay còn hiệu lực pháp luật hay đã hết hiệu lực?",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 316.802978515625,
+        "num_retrieved": 8
+      },
+      {
+        "id": "val_008",
+        "category": "validity",
+        "question": "Văn bản 102/2013/NĐ-CP (Nghị định 102/2013/NĐ-CP) hiện nay còn hiệu lực pháp luật hay đã hết hiệu lực?",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 321.4242458343506,
+        "num_retrieved": 8
+      },
+      {
+        "id": "val_016",
+        "category": "validity",
+        "question": "Văn bản 31/2007/TT-BLĐTBXH (Thông tư 31/2007/TT-BLĐTBXH) có còn hiệu lực thi hành không?",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 306.9148063659668,
+        "num_retrieved": 8
+      },
+      {
+        "id": "val_018",
+        "category": "validity",
+        "question": "Văn bản 19/2023/TT-BGDĐT (Thông tư 19/2023/TT-BGDĐT) có còn hiệu lực thi hành không?",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 312.5650882720947,
+        "num_retrieved": 8
+      },
+      {
+        "id": "val_019",
+        "category": "validity",
+        "question": "Văn bản 19/2016/TT-BYT (Thông tư 19/2016/TT-BYT) có còn hiệu lực thi hành không?",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 317.59119033813477,
+        "num_retrieved": 8
+      },
+      {
+        "id": "follow_001",
+        "category": "followup",
+        "question": "Vậy trong trường hợp này, quyền và trách nhiệm cụ thể được áp dụng ra sao?",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 331.3918113708496,
+        "num_retrieved": 6
+      },
+      {
+        "id": "follow_002",
+        "category": "followup",
+        "question": "Vậy trong trường hợp này, quyền và trách nhiệm cụ thể được áp dụng ra sao?",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 310.87803840637207,
+        "num_retrieved": 6
+      },
+      {
+        "id": "follow_003",
+        "category": "followup",
+        "question": "Vậy trong trường hợp này, quyền và trách nhiệm cụ thể được áp dụng ra sao?",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 306.8194389343262,
+        "num_retrieved": 6
+      }
+    ]
+  },
+  "test": {
+    "num_evaluated": 67,
+    "overall": {
+      "mrr@10": 0.1868159203980099,
+      "ndcg@10": 0.23331700338392372,
+      "recall@10": 0.3880597014925373,
+      "recall@5": 0.3208955223880597
+    },
+    "by_category": {
+      "single": {
+        "mrr@10": 0.3236979166666666,
+        "ndcg@10": 0.40311791408506437,
+        "recall@10": 0.65625,
+        "recall@5": 0.53125
+      },
+      "multi_step": {
+        "mrr@10": 0.13988095238095238,
+        "ndcg@10": 0.16754379776902076,
+        "recall@10": 0.2857142857142857,
+        "recall@5": 0.25
+      },
+      "validity": {
+        "mrr@10": 0.014285714285714287,
+        "ndcg@10": 0.02763234337389583,
+        "recall@10": 0.07142857142857142,
+        "recall@5": 0.07142857142857142
+      },
+      "followup": {
+        "mrr@10": 0.0,
+        "ndcg@10": 0.0,
+        "recall@10": 0.0,
+        "recall@5": 0.0
+      }
+    },
+    "latency_ms": {
+      "mean": 327.81,
+      "p50": 326.7,
+      "p95": 355.03
+    },
+    "per_query": [
+      {
+        "id": "single_001",
+        "category": "single",
+        "question": "Quy định pháp luật về về tổ chức bộ máy, biên chế theo Điều 11 của 178/2007/NĐ-CP là gì?",
+        "metrics": {
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0
+        },
+        "latency_ms": 340.3170108795166,
+        "num_retrieved": 2
+      },
+      {
+        "id": "single_002",
+        "category": "single",
+        "question": "Quy định pháp luật về đóng bảo hiểm thất nghiệp theo Điều 4 của 28/2015/TT-BLĐTBXH là gì?",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 329.35047149658203,
+        "num_retrieved": 7
+      },
+      {
+        "id": "single_003",
+        "category": "single",
+        "question": "Quy định pháp luật về thử việc theo Điều 19 của 116/2003/NĐ-CP là gì?",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 300.4007339477539,
+        "num_retrieved": 8
+      },
+      {
+        "id": "single_006",
+        "category": "single",
+        "question": "Quy định pháp luật về giấy phép lao động theo Điều 3 của 24/2015/TT-BLĐTBXH là gì?",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 301.56469345092773,
+        "num_retrieved": 6
+      },
+      {
+        "id": "single_007",
+        "category": "single",
+        "question": "Mức chi trả và quy định về mức hỗ trợ kinh phí đào tạo, bồi dưỡng, nâng cao trình độ kỹ năng được xác định thế nào theo 28/2015/TT-BLĐTBXH?",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.125,
+          "ndcg@10": 0.31546487678572877
+        },
+        "latency_ms": 347.83935546875,
+        "num_retrieved": 8
+      },
+      {
+        "id": "single_008",
+        "category": "single",
+        "question": "Theo quy định tại 119/2001/QĐ-UB, giám đốc sở y tế chủ trì, phối hợp với ban tổ chức chính quyền, sở được quy định cụ thể như thế nào?",
+        "metrics": {
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.3333333333333333,
+          "ndcg@10": 0.5
+        },
+        "latency_ms": 321.50769233703613,
+        "num_retrieved": 8
+      },
+      {
+        "id": "single_009",
+        "category": "single",
+        "question": "Quy định pháp luật về pháp lệnh, nghị quyết của ủy ban thường vụ quốc hội theo Điều 12 của 17/2008/QH12 là gì?",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 310.92309951782227,
+        "num_retrieved": 8
+      },
+      {
+        "id": "single_012",
+        "category": "single",
+        "question": "Quy định pháp luật về thống kê, đánh giá thực trạng đội ngũ cán bộ, công chức và người lao theo Điều 4 của 05/2013/TT-BNV là gì?",
+        "metrics": {
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0
+        },
+        "latency_ms": 326.72691345214844,
+        "num_retrieved": 8
+      },
+      {
+        "id": "single_014",
+        "category": "single",
+        "question": "Quy định pháp luật về cơ sở khám bệnh, chữa bệnh bảo hiểm y tế theo Điều 24 của 25/2008/QH12 là gì?",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 343.18995475769043,
+        "num_retrieved": 8
+      },
+      {
+        "id": "single_015",
+        "category": "single",
+        "question": "Quy định pháp luật về quản lý người huấn luyện theo Điều 4 của 31/2018/TT-BLĐTBXH là gì?",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 322.8738307952881,
+        "num_retrieved": 7
+      },
+      {
+        "id": "single_016",
+        "category": "single",
+        "question": "Quy định pháp luật về di chuyển hồ sơ hưởng lương hưu, trợ cấp tai nạn lao động, bệnh theo Điều 36 của 136/2020/TT-BQP là gì?",
+        "metrics": {
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0
+        },
+        "latency_ms": 337.4810218811035,
+        "num_retrieved": 7
+      },
+      {
+        "id": "single_017",
+        "category": "single",
+        "question": "Quy định pháp luật về ban soạn thảo nghị định theo Điều 60 của 17/2008/QH12 là gì?",
+        "metrics": {
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0
+        },
+        "latency_ms": 321.38633728027344,
+        "num_retrieved": 8
+      },
+      {
+        "id": "single_018",
+        "category": "single",
+        "question": "Quy định pháp luật về trợ cấp hằng tháng theo Điều 47 của 58/2014/QH13 là gì?",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.125,
+          "ndcg@10": 0.31546487678572877
+        },
+        "latency_ms": 322.1554756164551,
+        "num_retrieved": 8
+      },
+      {
+        "id": "single_020",
+        "category": "single",
+        "question": "Quy định pháp luật về quỹhỗ trợ lao động dôi dư thực hiệnhỗ trợ cho người lao động dôi theo Điều 5 của 85/2002/QĐ-BTC là gì?",
+        "metrics": {
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.3333333333333333,
+          "ndcg@10": 0.5
+        },
+        "latency_ms": 317.8057670593262,
+        "num_retrieved": 8
+      },
+      {
+        "id": "single_021",
+        "category": "single",
+        "question": "Quy định pháp luật về nhiệm vụ của ban soạn thảo, trưởng ban soạn thảo theo Điều 32 của 17/2008/QH12 là gì?",
+        "metrics": {
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.5,
+          "ndcg@10": 0.6309297535714575
+        },
+        "latency_ms": 306.02073669433594,
+        "num_retrieved": 8
+      },
+      {
+        "id": "single_023",
+        "category": "single",
+        "question": "Quy định pháp luật về quyết định này có hiệu lực thi hành từ ngày 28 tháng 6 năm theo Điều 2 của 03/2018/QĐ-UBND là gì?",
+        "metrics": {
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.3333333333333333,
+          "ndcg@10": 0.5
+        },
+        "latency_ms": 339.0476703643799,
+        "num_retrieved": 8
+      },
+      {
+        "id": "single_025",
+        "category": "single",
+        "question": "Theo quy định tại 39/2015/TTLT-BLĐTBXH-BGDĐT-BNV, quyền hạn của trung tâm giáo dục nghề nghiệp giáo dục thường được quy định cụ thể như thế nào?",
+        "metrics": {
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.2,
+          "ndcg@10": 0.38685280723454163
+        },
+        "latency_ms": 328.3236026763916,
+        "num_retrieved": 8
+      },
+      {
+        "id": "single_026",
+        "category": "single",
+        "question": "Mức chi trả và quy định về mức đóng và phương thức đóng của người lao động tham gia bảo hiểm được xác định thế nào theo 58/2014/QH13?",
+        "metrics": {
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.3333333333333333,
+          "ndcg@10": 0.5
+        },
+        "latency_ms": 335.94393730163574,
+        "num_retrieved": 6
+      },
+      {
+        "id": "single_027",
+        "category": "single",
+        "question": "Quy định pháp luật về báo cáo định kỳ về tình hình thực hiện bảo hiểm thất nghiệp theo Điều 17 của 28/2015/TT-BLĐTBXH là gì?",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 322.3114013671875,
+        "num_retrieved": 3
+      },
+      {
+        "id": "single_028",
+        "category": "single",
+        "question": "Điều kiện và trình tự thủ tục về điều kiện kiểm định theo 12/2021/TT-BLĐTBXH gồm những gì?",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 325.2224922180176,
+        "num_retrieved": 8
+      },
+      {
+        "id": "single_030",
+        "category": "single",
+        "question": "Trách nhiệm thực hiện theo 25/2008/QH12 về trách nhiệm của bộ tài chính về bảo hiểm y tế bao gồm những nội dung gì?",
+        "metrics": {
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.3333333333333333,
+          "ndcg@10": 0.5
+        },
+        "latency_ms": 324.7354030609131,
+        "num_retrieved": 5
+      },
+      {
+        "id": "single_031",
+        "category": "single",
+        "question": "Quy định pháp luật về bảo đảm thanh khoản theo Điều 3 của 60/2015/QĐ-TTg là gì?",
+        "metrics": {
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0
+        },
+        "latency_ms": 302.7651309967041,
+        "num_retrieved": 5
+      },
+      {
+        "id": "single_032",
+        "category": "single",
+        "question": "Quy định pháp luật về danh mục bí mật nhà nước độ mật của ngành lao động thương binh và theo Điều 1 của 59/2014/TT-BCA-A81 là gì?",
+        "metrics": {
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.5,
+          "ndcg@10": 0.6309297535714575
+        },
+        "latency_ms": 327.7451992034912,
+        "num_retrieved": 3
+      },
+      {
+        "id": "single_035",
+        "category": "single",
+        "question": "Quy định về hồ sơ và thời hạn giải quyết hưởng trợ cấp dưỡng sức, phục hồi sức tại 136/2020/TT-BQP quy định thời gian cụ thể là bao lâu?",
+        "metrics": {
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.5,
+          "ndcg@10": 0.6309297535714575
+        },
+        "latency_ms": 332.2572708129883,
+        "num_retrieved": 6
+      },
+      {
+        "id": "single_036",
+        "category": "single",
+        "question": "Quy định pháp luật về hành vi bị nghiêm cấm theo Điều 4 của 37/2010/TT-BLĐTBXH là gì?",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 310.61434745788574,
+        "num_retrieved": 7
+      },
+      {
+        "id": "single_038",
+        "category": "single",
+        "question": "Quy định pháp luật về phạm vi điều chỉnh và đối tượng áp dụng theo Điều 1 của 29/2014/TTLT-BLĐTBXH-BTC là gì?",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 315.49978256225586,
+        "num_retrieved": 8
+      },
+      {
+        "id": "single_039",
+        "category": "single",
+        "question": "Điều kiện và trình tự thủ tục về điều kiện hưởng lương hưu theo 58/2014/QH13 gồm những gì?",
+        "metrics": {
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.2,
+          "ndcg@10": 0.38685280723454163
+        },
+        "latency_ms": 308.1653118133545,
+        "num_retrieved": 7
+      },
+      {
+        "id": "single_040",
+        "category": "single",
+        "question": "Quy định pháp luật về hiệu lực thi hành theo Điều 53 của 116/2003/NĐ-CP là gì?",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.125,
+          "ndcg@10": 0.31546487678572877
+        },
+        "latency_ms": 293.1785583496094,
+        "num_retrieved": 8
+      },
+      {
+        "id": "single_041",
+        "category": "single",
+        "question": "Điều kiện và trình tự thủ tục về điều kiện thẩm định theo 05/2013/TT-BNV gồm những gì?",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 302.2656440734863,
+        "num_retrieved": 8
+      },
+      {
+        "id": "single_042",
+        "category": "single",
+        "question": "Quy định pháp luật về xây dựng và ban hành điều lệ hội thi theo Điều 9 của 16/2013/TT-BLĐTBXH là gì?",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.16666666666666666,
+          "ndcg@10": 0.3562071871080222
+        },
+        "latency_ms": 316.96343421936035,
+        "num_retrieved": 7
+      },
+      {
+        "id": "single_043",
+        "category": "single",
+        "question": "Mức chi trả và quy định về xác định số lần, mức giá và thanh toán tiền khám bệnh trong một số được xác định thế nào theo 39/2018/TT-BYT?",
+        "metrics": {
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0
+        },
+        "latency_ms": 322.48687744140625,
+        "num_retrieved": 2
+      },
+      {
+        "id": "single_044",
+        "category": "single",
+        "question": "Trách nhiệm thực hiện theo 136/2020/TT-BQP về quy trình, trách nhiệm giới thiệu giám định tai nạn lao động, bệnh bao gồm những nội dung gì?",
+        "metrics": {
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.25,
+          "ndcg@10": 0.43067655807339306
+        },
+        "latency_ms": 326.72905921936035,
+        "num_retrieved": 4
+      },
+      {
+        "id": "multi_001",
+        "category": "multi_step",
+        "question": "Hãy so sánh hoặc tổng hợp quy định giữa Điều 4 (Hiệu lực thi hành) và Điều 3 (Tổ chức thực hiện) theo văn bản 05/2018/TT-BLĐTBXH.",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 326.70092582702637,
+        "num_retrieved": 8
+      },
+      {
+        "id": "multi_002",
+        "category": "multi_step",
+        "question": "Hãy so sánh hoặc tổng hợp quy định giữa Điều 19 (Trách nhiệm của Thủ trưởng các đơn vị sự nghiệp thuộc Bộ) và Điều 1 (Ban hành kèm theo Quyết định này Quy chế phân công, phân cấp quản) theo văn bản 1503/QĐ-BTP.",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 348.9491939544678,
+        "num_retrieved": 3
+      },
+      {
+        "id": "multi_004",
+        "category": "multi_step",
+        "question": "Hãy so sánh hoặc tổng hợp quy định giữa Điều 5 (Xác định vị trí việc làm và danh mục vị trí việc làm của) và Điều 4 (Thống kê, đánh giá thực trạng đội ngũ cán bộ, công chức và người lao) theo văn bản 05/2013/TT-BNV.",
+        "metrics": {
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.5,
+          "ndcg@10": 0.6934264036172708
+        },
+        "latency_ms": 361.4780902862549,
+        "num_retrieved": 7
+      },
+      {
+        "id": "multi_005",
+        "category": "multi_step",
+        "question": "Hãy so sánh hoặc tổng hợp quy định giữa Điều 3 (Số lượng và thẩm quyền quản lý) và Điều 2 (Quyết định này có hiệu lực thi hành sau 10 ngày kể từ ngày ký.) theo văn bản 16/2013/QĐ-UBND.",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 349.9438762664795,
+        "num_retrieved": 1
+      },
+      {
+        "id": "multi_006",
+        "category": "multi_step",
+        "question": "Hãy so sánh hoặc tổng hợp quy định giữa Điều 14 (Quyền, trách nhiệm của công đoàn cấp trên) và Điều 12 (Quyền, trách nhiệm của công đoàn trong việc tổ chức và lãnh đạo) theo văn bản 43/2013/NĐ-CP.",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.5,
+          "mrr@10": 0.125,
+          "ndcg@10": 0.19342640361727081
+        },
+        "latency_ms": 340.26408195495605,
+        "num_retrieved": 8
+      },
+      {
+        "id": "multi_009",
+        "category": "multi_step",
+        "question": "Hãy so sánh hoặc tổng hợp quy định giữa Điều 2 (Quyết định này có hiệu lực thi hành sau 10 ngày kể từ ngày ký.) và Điều 4 (Chánh Văn phòng UBND tỉnh, Giám đốc các sở, ban, ngành và Chủ tịch) theo văn bản 40/2013/QĐ-UBND.",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 357.21659660339355,
+        "num_retrieved": 8
+      },
+      {
+        "id": "multi_010",
+        "category": "multi_step",
+        "question": "Hãy so sánh hoặc tổng hợp quy định giữa Điều 3 (Giao cho Thanh tra Nhà nước về an toàn lao động thuộc Bộ Lao động) và Điều 6 (Quyết định này có hiệu lực thi hành kể từ ngày ký.) theo văn bản 1407/QĐ-LĐTBXH.",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 348.7281799316406,
+        "num_retrieved": 8
+      },
+      {
+        "id": "multi_011",
+        "category": "multi_step",
+        "question": "Hãy so sánh hoặc tổng hợp quy định giữa Điều 10 () và Điều 7 (Côngty có nghĩa vụ sử dụng có hiệu quả, bảo toàn, phát triển vốn) theo văn bản 74/2000/QĐ-BCN.",
+        "metrics": {
+          "recall@5": 0.5,
+          "recall@10": 0.5,
+          "mrr@10": 0.25,
+          "ndcg@10": 0.2640681225725909
+        },
+        "latency_ms": 335.27660369873047,
+        "num_retrieved": 7
+      },
+      {
+        "id": "multi_013",
+        "category": "multi_step",
+        "question": "Hãy so sánh hoặc tổng hợp quy định giữa Điều 5 (Bản mô tả công việcvà khung năng lực vị trí việc làm) và Điều 4 (Danh mục vị trí việc làm) theo văn bản 10/2023/TT-BXD.",
+        "metrics": {
+          "recall@5": 0.5,
+          "recall@10": 0.5,
+          "mrr@10": 0.25,
+          "ndcg@10": 0.2640681225725909
+        },
+        "latency_ms": 332.9768180847168,
+        "num_retrieved": 7
+      },
+      {
+        "id": "multi_015",
+        "category": "multi_step",
+        "question": "Hãy so sánh hoặc tổng hợp quy định giữa Điều 5 (Hình thức tổ chức hoạt động văn hóa, văn nghệ) và Điều 18 (Hiệu lực thi hành) theo văn bản 16/2013/TT-BLĐTBXH.",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 337.04447746276855,
+        "num_retrieved": 8
+      },
+      {
+        "id": "multi_017",
+        "category": "multi_step",
+        "question": "Hãy so sánh hoặc tổng hợp quy định giữa Điều 5 (Trình tự, thủ tục) và Điều 4 (Hồ sơ đề nghị xét tặng hoặc truy tặng) theo văn bản 03/2014/TTLT-BNV-BQP-BLĐTBXH.",
+        "metrics": {
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.5,
+          "ndcg@10": 0.6240505200038379
+        },
+        "latency_ms": 338.0308151245117,
+        "num_retrieved": 7
+      },
+      {
+        "id": "multi_018",
+        "category": "multi_step",
+        "question": "Hãy so sánh hoặc tổng hợp quy định giữa Điều 4 (Tổ chức thực hiện) và Điều 2 (Điểm b Khoản 3 Điều 5 của Nghị định số 195/CP ngày 31 tháng 12 năm) theo văn bản 81/2012/NĐ-CP.",
+        "metrics": {
+          "recall@5": 0.5,
+          "recall@10": 0.5,
+          "mrr@10": 0.3333333333333333,
+          "ndcg@10": 0.3065735963827292
+        },
+        "latency_ms": 349.4610786437988,
+        "num_retrieved": 8
+      },
+      {
+        "id": "multi_019",
+        "category": "multi_step",
+        "question": "Hãy so sánh hoặc tổng hợp quy định giữa Điều 2 (Nhiệm vụ và quyền hạn) và Điều 5 (Trách nhiệm thi hành) theo văn bản 106/2012/NĐ-CP.",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 328.52721214294434,
+        "num_retrieved": 2
+      },
+      {
+        "id": "multi_020",
+        "category": "multi_step",
+        "question": "Hãy so sánh hoặc tổng hợp quy định giữa Điều 18 (Tổ chức thực hiện) và Điều 2 (Mở và sử dụng tài khoản tiền gửi chi phí quản lý bộ máy) theo văn bản 134/2011/TT-BTC.",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 335.62755584716797,
+        "num_retrieved": 6
+      },
+      {
+        "id": "val_002",
+        "category": "validity",
+        "question": "Văn bản 6282/2003/QĐ-BYT (Quyết định 6282/2003/QĐ-BYT) hiện nay còn hiệu lực pháp luật hay đã hết hiệu lực?",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 364.57180976867676,
+        "num_retrieved": 8
+      },
+      {
+        "id": "val_003",
+        "category": "validity",
+        "question": "Văn bản 70/2006/QH11 (Luật 70/2006/QH11) hiện còn hiệu lực toàn bộ hay đã hết hiệu lực một phần?",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 390.7015323638916,
+        "num_retrieved": 8
+      },
+      {
+        "id": "val_004",
+        "category": "validity",
+        "question": "Văn bản 05/2011/TTLT-UBDT-BTC (Thông tư liên tịch 05/2011/TTLT-UBDT-BTC) hiện nay còn hiệu lực pháp luật hay đã hết hiệu lực?",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 333.6374759674072,
+        "num_retrieved": 8
+      },
+      {
+        "id": "val_005",
+        "category": "validity",
+        "question": "Văn bản 03/2006/NĐ-CP (Nghị định 03/2006/NĐ-CP) hiện nay còn hiệu lực pháp luật hay đã hết hiệu lực?",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 333.53161811828613,
+        "num_retrieved": 8
+      },
+      {
+        "id": "val_006",
+        "category": "validity",
+        "question": "Văn bản 86/2008/QĐ-TTg (Quyết định 86/2008/QĐ-TTg) hiện nay còn hiệu lực pháp luật hay đã hết hiệu lực?",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 324.3842124938965,
+        "num_retrieved": 4
+      },
+      {
+        "id": "val_009",
+        "category": "validity",
+        "question": "Văn bản 16/2013/QĐ-UBND (Quyết định 16/2013/QĐ-UBND) hiện nay còn hiệu lực pháp luật hay đã hết hiệu lực?",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 316.92957878112793,
+        "num_retrieved": 8
+      },
+      {
+        "id": "val_010",
+        "category": "validity",
+        "question": "Văn bản 66/2001/TT-BTC (Thông tư 66/2001/TT-BTC) hiện nay còn hiệu lực pháp luật hay đã hết hiệu lực?",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 318.0050849914551,
+        "num_retrieved": 8
+      },
+      {
+        "id": "val_011",
+        "category": "validity",
+        "question": "Văn bản 02/2007/TT-BLĐTBXH (Thông tư 02/2007/TT-BLĐTBXH) hiện còn hiệu lực toàn bộ hay đã hết hiệu lực một phần?",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 314.17059898376465,
+        "num_retrieved": 8
+      },
+      {
+        "id": "val_012",
+        "category": "validity",
+        "question": "Văn bản 71/2008/NĐ-CP (Nghị định 71/2008/NĐ-CP) hiện nay còn hiệu lực pháp luật hay đã hết hiệu lực?",
+        "metrics": {
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.2,
+          "ndcg@10": 0.38685280723454163
+        },
+        "latency_ms": 347.2437858581543,
+        "num_retrieved": 8
+      },
+      {
+        "id": "val_013",
+        "category": "validity",
+        "question": "Văn bản 114/2020/TT-BQP (Thông tư 114/2020/TT-BQP) có còn hiệu lực thi hành không?",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 343.7371253967285,
+        "num_retrieved": 8
+      },
+      {
+        "id": "val_014",
+        "category": "validity",
+        "question": "Văn bản 58/2014/QH13 (Luật 58/2014/QH13) có còn hiệu lực thi hành không?",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 326.51758193969727,
+        "num_retrieved": 8
+      },
+      {
+        "id": "val_015",
+        "category": "validity",
+        "question": "Văn bản 136/2020/TT-BQP (Thông tư 136/2020/TT-BQP) có còn hiệu lực thi hành không?",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 322.5383758544922,
+        "num_retrieved": 8
+      },
+      {
+        "id": "val_017",
+        "category": "validity",
+        "question": "Văn bản 28/2016/TT-BLĐTBXH (Thông tư 28/2016/TT-BLĐTBXH) có còn hiệu lực thi hành không?",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 326.099157333374,
+        "num_retrieved": 6
+      },
+      {
+        "id": "val_020",
+        "category": "validity",
+        "question": "Văn bản 12/1995/TTLB (Thông tư liên tịch 12/1995/TTLB) có còn hiệu lực thi hành không?",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 328.0212879180908,
+        "num_retrieved": 8
+      },
+      {
+        "id": "follow_004",
+        "category": "followup",
+        "question": "Vậy trong trường hợp này, quyền và trách nhiệm cụ thể được áp dụng ra sao?",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 340.3177261352539,
+        "num_retrieved": 6
+      },
+      {
+        "id": "follow_005",
+        "category": "followup",
+        "question": "Vậy trong trường hợp này, quyền và trách nhiệm cụ thể được áp dụng ra sao?",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 310.4519844055176,
+        "num_retrieved": 6
+      },
+      {
+        "id": "follow_006",
+        "category": "followup",
+        "question": "Vậy trong trường hợp này, quyền và trách nhiệm cụ thể được áp dụng ra sao?",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 313.9479160308838,
+        "num_retrieved": 6
+      },
+      {
+        "id": "follow_007",
+        "category": "followup",
+        "question": "Vậy trong trường hợp này, quyền và trách nhiệm cụ thể được áp dụng ra sao?",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 301.68724060058594,
+        "num_retrieved": 6
+      },
+      {
+        "id": "follow_008",
+        "category": "followup",
+        "question": "Vậy trong trường hợp này, quyền và trách nhiệm cụ thể được áp dụng ra sao?",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 306.0414791107178,
+        "num_retrieved": 6
+      },
+      {
+        "id": "follow_009",
+        "category": "followup",
+        "question": "Vậy trong trường hợp này, quyền và trách nhiệm cụ thể được áp dụng ra sao?",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 322.8127956390381,
+        "num_retrieved": 6
+      },
+      {
+        "id": "follow_010",
+        "category": "followup",
+        "question": "Vậy trong trường hợp này, quyền và trách nhiệm cụ thể được áp dụng ra sao?",
+        "metrics": {
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0
+        },
+        "latency_ms": 303.6527633666992,
+        "num_retrieved": 6
+      }
+    ]
+  }
+}

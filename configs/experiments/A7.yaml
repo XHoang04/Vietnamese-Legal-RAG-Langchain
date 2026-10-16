@@ -1,0 +1,23 @@
+name: "A7"
+description: "graph full (grade hybrid, verify llm, planner enabled)"
+pipeline: "graph"
+overrides:
+  retrieval:
+    hybrid:
+      enabled: true
+    rerank:
+      enabled: true
+    parent_child:
+      enabled: true
+  app:
+    graph:
+      mode: "full"
+      grade:
+        mode: "hybrid"
+      verify:
+        mode: "llm"
+      multi_step:
+        enabled: true
+    validity:
+      enabled: true
+      expand_replacements: false

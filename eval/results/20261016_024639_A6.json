@@ -1,0 +1,19 @@
+{
+  "experiment": "A6",
+  "description": "A5 + validity enabled (annotate)",
+  "pipeline": "graph",
+  "split": "dev",
+  "num_evaluated": 32,
+  "recall@5": 0.1429,
+  "recall@10": 0.1786,
+  "mrr@10": 0.1134,
+  "ndcg@10": 0.1184,
+  "citation_accuracy": 0.0714,
+  "citation_support": 0.4286,
+  "refusal_accuracy": 1.0,
+  "validity_accuracy": 0.7812,
+  "avg_llm_calls": 2.62,
+  "latency_p50_ms": 1162.09,
+  "latency_p95_ms": 1461.36,
+  "latency_mean_ms": 966.05
+}

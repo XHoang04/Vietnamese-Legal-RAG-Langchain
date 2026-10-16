@@ -1,0 +1,22 @@
+name: "A6b"
+description: "A6 + expand_replacements enabled"
+pipeline: "graph"
+overrides:
+  retrieval:
+    hybrid:
+      enabled: true
+    rerank:
+      enabled: true
+    parent_child:
+      enabled: true
+    expired_policy: "annotate"
+  app:
+    graph:
+      mode: "lean"
+      grade:
+        mode: "threshold"
+      verify:
+        mode: "code"
+    validity:
+      enabled: true
+      expand_replacements: true

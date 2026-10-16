@@ -1,0 +1,20 @@
+name: "A5"
+description: "A4 + graph lean (grade threshold, verify code, validity disabled)"
+pipeline: "graph"
+overrides:
+  retrieval:
+    hybrid:
+      enabled: true
+    rerank:
+      enabled: true
+    parent_child:
+      enabled: true
+  app:
+    graph:
+      mode: "lean"
+      grade:
+        mode: "threshold"
+      verify:
+        mode: "code"
+    validity:
+      enabled: false

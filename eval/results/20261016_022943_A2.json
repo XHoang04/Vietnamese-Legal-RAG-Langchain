@@ -1,0 +1,17 @@
+{
+  "experiment": "A2",
+  "description": "A1 + hybrid BM25 (RRF)",
+  "split": "dev",
+  "num_evaluated": 10,
+  "recall@5": 0.8,
+  "recall@10": 0.8,
+  "mrr@10": 0.3333,
+  "ndcg@10": 0.4516,
+  "citation_accuracy": 0.0,
+  "citation_support": 1.0,
+  "refusal_accuracy": 1.0,
+  "avg_llm_calls": 1.0,
+  "latency_p50_ms": 394.37,
+  "latency_p95_ms": 524.53,
+  "latency_mean_ms": 417.18
+}

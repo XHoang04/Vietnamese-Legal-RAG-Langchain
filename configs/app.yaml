@@ -1,0 +1,70 @@
+snapshot_as_of: '2024-09-10'
+db:
+  url: sqlite:///data/processed/legalrag.db
+qdrant:
+  url: null
+  path: data/processed/qdrant_local
+  collection: legal_chunks
+filters:
+  min_text_chars: 200
+  mismatch_overlap_min: 0.3
+chunking:
+  min_article_tokens_for_split: 400
+  max_chunk_tokens: 900
+  flat_window_tokens: 600
+  flat_overlap_tokens: 80
+  min_chunk_tokens: 20
+  min_newline_density: 3
+  index_preamble: true
+  preamble_max_tokens: 800
+graph:
+  mode: lean
+  max_retries: 2
+  max_clarifications: 1
+  recursion_limit: 25
+  checkpointer:
+    backend: sqlite
+    sqlite_path: data/processed/checkpoints.db
+    postgres_url: null
+  guardrail:
+    max_chars: 2000
+    llm_enabled: false
+    patterns:
+    - bỏ qua (mọi )?(chỉ dẫn|hướng dẫn)
+    - ignore (all )?(previous|prior)
+    - system prompt
+    - tiết lộ (prompt|chỉ dẫn)
+  router:
+    merge_rewrite: true
+  grade:
+    mode: threshold
+    tau_high: 0.01
+    tau_low: 0.005
+  verify:
+    mode: code
+  multi_step:
+    enabled: true
+    max_sub_questions: 4
+validity:
+  enabled: true
+  expand_replacements: false
+privacy:
+  allow_remote_for_uploads: true
+upload:
+  max_size_mb: 20
+  max_pages: 150
+  max_chunks: 800
+  min_chars_per_page: 100
+  ttl_hours: 24
+  keep_original: false
+api:
+  rate_limit_per_minute: 30
+  cors_origins:
+  - http://localhost:8501
+llm:
+  profile: api_dev
+  cache:
+    enabled: true
+    path: data/cache/llm_cache.sqlite
+prompts:
+  version: v1

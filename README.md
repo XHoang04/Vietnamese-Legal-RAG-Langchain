@@ -46,20 +46,20 @@ flowchart TD
     User(["Người dùng / API Client"]) --> Guardrail["1. Guardrail (Lọc Injection & Độ dài)"]
     Guardrail --> Router["2. Router (Phân loại Ý định, Phạm vi & Câu hỏi Tự do)"]
 
-    Router -->|legal_query (simple)| Retrieve["3. Hybrid Retrieve (Dense + BM25 + RRF + Rerank)"]
-    Router -->|legal_query (multi_step)| Planner["3b. Multi-step Planner (Phân rã câu hỏi con)"]
+    Router -->|"legal_query (đơn giản)"| Retrieve["3. Hybrid Retrieve (Dense + BM25 + RRF + Rerank)"]
+    Router -->|"legal_query (nhiều bước)"| Planner["3b. Multi-step Planner (Phân rã câu hỏi con)"]
     Planner --> Retrieve
 
     Retrieve --> Grade{"4. Grade Relevance (Threshold / Hybrid)"}
-    Grade -->|chưa đạt & retries < 2| Rewrite["Rewrite (Viết lại truy vấn & từ đồng nghĩa)"]
+    Grade -->|"Chưa đạt, còn lượt thử"| Rewrite["Rewrite (Viết lại truy vấn & từ đồng nghĩa)"]
     Rewrite --> Retrieve
 
-    Grade -->|đạt| Validity["5. Validity Check (Kiểm tra Hiệu lực & Cảnh báo)"]
-    Validity --> Generate["6. Generate (LLM Structured Output [n])"]
+    Grade -->|"Đạt yêu cầu"| Validity["5. Validity Check (Kiểm tra Hiệu lực & Cảnh báo)"]
+    Validity --> Generate["6. Generate (LLM Structured Output)"]
     Generate --> Verify{"7. Verify (Kiểm tra ảo giác về Điều/Khoản & số liệu)"}
 
-    Verify -->|pass| Finalize["8. Finalize (Tạo câu trả lời hoàn chỉnh kèm URL trích dẫn)"]
-    Verify -->|fail & regen < 1| Generate
+    Verify -->|"Hợp lệ"| Finalize["8. Finalize (Tạo câu trả lời hoàn chỉnh kèm URL trích dẫn)"]
+    Verify -->|"Phát hiện lỗi, tạo lại"| Generate
 
     Finalize --> Output(["Câu trả lời có căn cứ pháp lý & cảnh báo"])
 ```

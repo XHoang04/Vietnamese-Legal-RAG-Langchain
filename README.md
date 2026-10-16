@@ -16,6 +16,29 @@
 
 ---
 
+## 🌟 Tính Năng Nổi Bật (Key Features)
+
+### 1. 📚 Linh Hoạt Nguồn Dữ Liệu: Dữ Liệu Có Sẵn & Tải Lên PDF Cá Nhân
+Hệ thống hỗ trợ 2 chế độ dữ liệu song song hoặc kết hợp:
+- **Cơ sở tri thức có sẵn (Pre-indexed Corpus)**: Tích hợp sẵn cơ sở dữ liệu luật pháp đồ sộ (Luật Bảo hiểm xã hội, Bảo hiểm y tế, An toàn vệ sinh lao động, các Nghị định/Thông tư hướng dẫn) được lưu trữ cấu trúc trong SQLite và chỉ mục vector trong Qdrant Local.
+- **Tải lên tệp PDF tùy chỉnh (Custom PDF Document RAG)**: Người dùng có thể tải lên bất kỳ tài liệu nào (bản PDF số hóa text: *Bộ luật Lao động mới, Hợp đồng lao động, Thỏa ước lao động tập thể, Nội quy công ty, Quy chế lương thưởng*...). Hệ thống tự động:
+  - Kiểm tra tính hợp lệ của tài liệu (chống file rỗng, file scan ảnh không có text).
+  - Phân tích cấu trúc Điều/Khoản và tạo chunk ngữ nghĩa.
+  - Tạo kho vector độc lập theo từng phiên (Session-isolated Vector Store) đảm bảo quyền riêng tư.
+  - Trả lời và trích dẫn chuẩn xác theo trang/điều khoản có trong tài liệu vừa tải lên.
+
+### 2. 🤖 Linh Hoạt Mô Hình LLM: Cloud API vs Local Offline (On-Premise)
+Hệ thống được thiết kế theo kiến trúc Factory Pattern, dễ dàng chuyển đổi linh hoạt:
+- **Chế độ Cloud API (Google Gemini, OpenAI, Groq)**:
+  - Tối ưu cho người dùng muốn triển khai nhanh, không cần máy tính có phần cứng mạnh.
+  - Mặc định hỗ trợ Google Gemini (`gemini-3.1-flash-lite`, `gemini-1.5-flash`, `gemini-1.5-pro`). Tốc độ phản hồi cực nhanh và khả năng suy luận logic xuất sắc.
+- **Chế độ Local Offline (Ollama - Qwen 2.5 / Llama 3)**:
+  - **Bảo mật tuyệt đối (100% On-Premise)**: Mọi dữ liệu câu hỏi và tài liệu tải lên không bao giờ gửi ra bên ngoài Internet. Rất phù hợp cho doanh nghiệp cần bảo mật hợp đồng và dữ liệu nội bộ.
+  - **Không tốn phí & Không giới hạn Quota**: Không lo ngại lỗi hết hạn ngạch `429 Too Many Requests` hay chi phí gọi API.
+  - Các thành phần nhúng (`AITeamVN/Vietnamese_Embedding`), rerank (`AITeamVN/Vietnamese_Reranker`) và CSDL vector (`Qdrant`) đều chạy hoàn toàn offline trên máy tính.
+
+---
+
 ## 🏛️ Sơ Đồ Kiến Trúc Hệ Thống (Architecture)
 
 ```mermaid
@@ -41,7 +64,99 @@ flowchart TD
     Finalize --> Output(["Câu trả lời có căn cứ pháp lý & cảnh báo"])
 ```
 
-Chi tiết xem tại [Tài liệu Kiến trúc Hệ thống](file:///d:/Hoang/Project_RAG/docs/architecture.md).
+Chi tiết xem tại [Tài liệu Kiến trúc Hệ thống](docs/architecture.md).
+
+---
+
+## ⚙️ Hướng Dẫn Cấu Hình Mô Hình (Model Configuration)
+
+Hệ thống điều khiển qua file `.env` và `configs/models.yaml`. Bạn có thể chuyển đổi giữa 2 chế độ rất dễ dàng:
+
+### Cách 1: Sử dụng Cloud API (Mặc định - Google Gemini)
+Phù hợp nhất nếu bạn muốn chạy nhẹ nhàng và chất lượng suy luận cao nhất:
+1. Đăng ký API Key miễn phí tại [Google AI Studio](https://aistudio.google.com/).
+2. Trong file `.env`, thiết lập:
+   ```env
+   LLM_PROFILE=api_dev
+   LLM_PROVIDER=google_genai
+   LLM_MODEL=gemini-3.1-flash-lite
+   JUDGE_MODEL=gemini-3.1-flash-lite
+   GOOGLE_API_KEY=AIzaSy... (API Key của bạn)
+   ```
+
+### Cách 2: Sử dụng Local LLM Offline (Ollama - Qwen 2.5)
+Phù hợp khi cần bảo mật tài liệu 100% nội bộ hoặc làm việc không có Internet:
+1. Tải và cài đặt Ollama từ [ollama.com](https://ollama.com).
+2. Tải mô hình Qwen 2.5 (hỗ trợ tiếng Việt và sinh JSON rất tốt):
+   ```bash
+   ollama run qwen2.5:7b
+   ```
+3. Cài đặt thư viện langchain-ollama trong môi trường ảo:
+   ```bash
+   pip install langchain-ollama
+   ```
+4. Cấu hình trong `.env`:
+   ```env
+   LLM_PROFILE=private
+   OLLAMA_MODEL=qwen2.5:7b
+   OLLAMA_BASE_URL=http://localhost:11434
+   ```
+5. Trong `configs/app.yaml`:
+   ```yaml
+   llm:
+     profile: private
+   ```
+
+---
+
+## 🚀 Hướng Dẫn Cài Đặt & Chạy Nhanh (Quickstart)
+
+### 1. Kích hoạt Môi trường ảo Python (Python 3.11+)
+```powershell
+# Trên Windows PowerShell
+.\.venv\Scripts\Activate.ps1
+
+# Trên Linux / macOS
+source .venv/bin/activate
+```
+
+### 2. Cấu hình Biến Môi trường
+Sao chép `.env.example` thành `.env` và điền cấu hình mong muốn:
+```bash
+cp .env.example .env
+```
+
+### 3. Chạy qua CLI (Thử nghiệm nhanh)
+```bash
+# Chạy thử nghiệm với FakeLLM (không tốn quota)
+python -m legalrag.cli ask "Thời giờ làm việc bình thường là mấy tiếng?" --fake
+
+# Kiểm tra trạng thái hiệu lực của một văn bản quy phạm pháp luật
+python -m legalrag.cli check-validity "17/2008/QH12"
+```
+
+### 4. Khởi động Toàn Bộ Giao Diện & Backend
+Mở 2 cửa sổ terminal:
+
+```bash
+# Cửa sổ 1: Khởi động FastAPI Backend (Port 8000)
+python -m uvicorn apps.api.main:app --host 0.0.0.0 --port 8000 --reload
+
+# Cửa sổ 2: Khởi động Streamlit Web UI (Port 8501)
+streamlit run apps/ui/app.py
+```
+
+- **Giao diện Web UI**: [http://localhost:8501](http://localhost:8501)
+  - Chọn hỏi đáp trực tiếp theo CSDL luật pháp có sẵn.
+  - Hoặc bấm mục **"Tải lên tài liệu PDF"** ở sidebar để tra cứu tài liệu riêng của bạn.
+- **Swagger API Docs**: [http://localhost:8000/docs](http://localhost:8000/docs)
+- **Liveness Probe**: [http://localhost:8000/health](http://localhost:8000/health)
+- **Readiness Probe**: [http://localhost:8000/ready](http://localhost:8000/ready)
+
+### 5. Chạy Với Docker Compose
+```bash
+docker compose up -d
+```
 
 ---
 
@@ -59,61 +174,7 @@ Kết quả đánh giá định lượng trên tập dữ liệu chuẩn **Golde
 | **A6** | A5 + Cảnh báo Hiệu lực (`validity`) | `graph` | 14.29% | 0.1134 | 42.86% | 90.62% | 78.12% | 2.62 | 966.05 |
 | **A7** | LangGraph Full (Planner + Hybrid + Verify) | `graph` | **30.36%** | **0.1950** | **100.0%** | **96.88%** | **75.00%** | 3.53 | 566.38 |
 
-Chi tiết xem tại [Báo cáo Đánh giá Toàn diện](file:///d:/Hoang/Project_RAG/eval/report.md).
-
----
-
-## 🚀 Hướng Dẫn Cài Đặt & Chạy Nhanh (Quickstart)
-
-### 1. Kích hoạt Môi trường ảo Python
-Môi trường ảo `.venv` đã được khởi tạo và cấu hình độc lập tại thư mục dự án:
-```powershell
-# Trên Windows PowerShell
-.\.venv\Scripts\Activate.ps1
-
-# Trên Linux / macOS
-source .venv/bin/activate
-```
-
-### 2. Cấu hình Biến Môi trường
-Sao chép `.env.example` thành `.env` và điền khóa API (nếu sử dụng remote LLM):
-```bash
-cp .env.example .env
-```
-Các cấu hình chính trong `.env`:
-- `API_KEYS=dev-key-1` (khóa xác thực truy cập REST API).
-- `LLM_PROFILE=api_dev` (hoặc `private` khi dùng Ollama).
-- `GOOGLE_API_KEY=...` (nếu dùng Google Gemini).
-
-### 3. Chạy qua CLI
-```bash
-# Chạy thử nghiệm offline với FakeLLM (không tốn quota)
-python -m legalrag.cli ask "Thời giờ làm việc bình thường là mấy tiếng?" --fake
-
-# Kiểm tra trạng thái hiệu lực của một văn bản
-python -m legalrag.cli check-validity "17/2008/QH12"
-```
-
-### 4. Chạy REST API & Streamlit UI
-```bash
-# Cửa sổ 1: Khởi động FastAPI Backend
-python -m uvicorn apps.api.main:app --port 8000 --reload
-# (hoặc: make api)
-
-# Cửa sổ 2: Khởi động Streamlit Web UI
-streamlit run apps/ui/app.py
-# (hoặc: make ui)
-```
-- Truy cập Giao diện Web: [http://localhost:8501](http://localhost:8501)
-- Truy cập API Swagger: [http://localhost:8000/docs](http://localhost:8000/docs)
-- Liveness Probe: [http://localhost:8000/health](http://localhost:8000/health)
-- Readiness Probe: [http://localhost:8000/ready](http://localhost:8000/ready)
-
-### 5. Chạy Toàn Bộ Hệ Thống Với Docker Compose
-```bash
-docker compose up -d
-# (hoặc: make up)
-```
+Chi tiết xem tại [Báo cáo Đánh giá Toàn diện](eval/report.md).
 
 ---
 
@@ -135,7 +196,7 @@ ruff check src apps tests scripts
 ```text
 ├── apps/
 │   ├── api/              # FastAPI Backend (REST & SSE Streaming)
-│   └── ui/               # Streamlit Web UI
+│   └── ui/               # Streamlit Web UI (hỗ trợ upload PDF & chat)
 ├── configs/              # Cấu hình hệ thống (app.yaml, models.yaml, retrieval.yaml)
 ├── data/
 │   ├── processed/        # Cơ sở dữ liệu SQLite (legalrag.db) và Qdrant local
